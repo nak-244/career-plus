@@ -1,0 +1,12 @@
+.sp_disp{display: none;}
+.pc_disp{display: block;}
+#main{
+width:980px;
+margin: 0 auto;
+overflow:hidden;
+}
+#main-all{
+float:left;
+margin:1em 0;
+width:690px;
+}
