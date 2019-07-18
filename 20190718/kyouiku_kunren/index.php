@@ -1,5 +1,5 @@
 <?php include ('../header.php'); ?>
-<title>教育訓練計画について | キャリアプラス Career plus</title>
+<title>教育訓練計画について |【公式】株式会社キャリアプラス - 日払い対応人材派遣サービス</title>
 <div id="main">
 <div id="main-all">
 <!--/トップ固定-->
@@ -173,7 +173,7 @@ vertical-align:top;
   <td class="right-td">・派遣スタッフとは <br>
 ・期待されるスタッフ像 <br>
 ・派遣法について<br>
-・コミュニケーションとは<br> 
+・コミュニケーションとは<br>
 ・身だしなみと挨拶</td>
 </tr>
 </table>

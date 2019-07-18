@@ -1,5 +1,5 @@
 <?php include ('../header.php'); ?>
-<title>事業所案内 | キャリアプラス Career plus</title>
+<title>事業所案内 |【公式】株式会社キャリアプラス - 日払い対応人材派遣サービス</title>
 <div id="main">
 <div id="main-all">
 <!--/トップ固定-->

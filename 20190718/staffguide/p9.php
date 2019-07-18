@@ -1,5 +1,5 @@
 <?php include ('../header.php'); ?>
-<title>スタッフガイド | キャリアプラス Career plus</title>
+<title>スタッフガイドP9 |【公式】株式会社キャリアプラス - 日払い対応人材派遣サービス</title>
 <link rel="stylesheet" type="text/css" href="css/staffguide.css">
 <meta name="robots" content="noindex">
 <div id="main">

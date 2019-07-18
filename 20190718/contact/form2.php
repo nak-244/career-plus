@@ -1,5 +1,5 @@
 <?php include ('../header.php'); ?>
-<title>お問い合わせフォーム（法人のお客様） | キャリアプラス Career plus</title>
+<title>お問い合わせフォーム（法人のお客様） |【公式】株式会社キャリアプラス - 日払い対応人材派遣サービス</title>
 <div id="main">
 <div id="main-all">
 <!--/トップ固定-->
@@ -194,8 +194,8 @@ $newline = preg_replace($ptn,$rep,$newline);
 ?>
 
 
-<script type="text/javascript"> 
-<!-- 
+<script type="text/javascript">
+<!--
 // SP版safari対応
 function check(){
 var flag = 0;
@@ -220,7 +220,7 @@ flag = 1;
 }
 // 設定終了
 if(flag){
-window.alert('必須項目に未入力があります'); 
+window.alert('必須項目に未入力があります');
 return false;
 }
 else{
