@@ -164,7 +164,7 @@ width:600px;
 
 <div class="content3">
 <p>令和元年８月１日</p>
-<img src="img/ceo_name.png" alt="代表取締役">
+<img src="img/ykname.png" alt="代表取締役">
 </div>
 
 </div>
@@ -342,7 +342,7 @@ $( window ).scroll( function() {
 
 <div class="content3">
 <p>令和元年８月１日</p>
-<img src="img/ceo_name.png" alt="代表取締役">
+<img src="img/ykname.png" alt="代表取締役">
 </div>
 
 </div>
