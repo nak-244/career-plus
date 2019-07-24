@@ -285,6 +285,8 @@ width:600px;
 </div>
 <!-- /PC -->
 
+<script src="/js/crossfade.jquery.js"></script>
+
 </div>
 <?php include ('../side.php'); ?>
 </div>
