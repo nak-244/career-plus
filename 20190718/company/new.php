@@ -158,7 +158,7 @@ width:600px;
 <p class="space">そこでアリスは、頭のなかで、ひなぎくのくさりをつくったら楽しいだろうけれど、起きあがってひなぎくをつむのもめんどくさいし、どうしようかと考えていました（といっても、昼間で暑いし、とってもねむくて頭もまわらなかったので、これもたいへんだったのですが）。</p>
 <p class="space">そこへいきなり、ピンクの目をした白うさぎが近くを走ってきたのです。それだけなら、そんなにめずらしいことでもありませんでした。さらにアリスとしては、そのうさぎが「どうしよう！　どうしよう！　ちこくしちゃうぞ！」とつぶやくのを聞いたときも、それがそんなにへんてこだとは思いませんでした（あとから考えてみたら、これも不思議に思うべきだったのですけれど、でもこのときには、それがごく自然なことに思えたのです）。でもそのうさぎがほんとうに、チョッキのポケットから懐中時計（かいちゅうどけい）をとりだしてそれをながめ、そしてまたあわててかけだしたとき、アリスもとびあがりました。</p>
 <div class="ceoimage">
-<p class="sample sample-second"><img src="img/ceo02.png" alt=""></p>
+<p class="ceo ceo-second"><img src="img/ceo02.png" alt=""></p>
 </div>
 </div>
 
@@ -267,22 +267,23 @@ width:600px;
   background:url(img/ceo01.png) center no-repeat;
   background-size: cover;
 }
-.sample {
+.ceo {
   overflow: hidden;
   position: relative;
 }
 
-.sample img {
+.ceo img {
   display: block;
   height: auto;
   width: 100%;
 }
-.sample-second.sample-animation {
-  animation: sample-second-img 2s cubic-bezier(.4, 0, .2, 1);
+/* animation */
+.ceo-second.ceo-animation {
+  animation: ceo-second-img 8s cubic-bezier(.4, 0, .2, 1);
 }
 
-.sample-second.sample-animation:before {
-  animation: sample-second-before 2s cubic-bezier(.4, 0, .2, 1) forwards;
+.ceo-second.ceo-animation:before {
+  animation: ceo-second-before 0s cubic-bezier(.4, 0, .2, 1) forwards;
   background: #fff;
   bottom: 0;
   content: '';
@@ -294,35 +295,36 @@ width:600px;
   z-index: 1;
 }
 
-@keyframes sample-second-img {
+@keyframes ceo-second-img {
   0% {
     opacity: 0;
   }
 }
 
-@keyframes sample-second-before {
+@keyframes ceo-second-before {
   100% {
     transform: translateX(100%);
   }
 }
+
 </style>
 <script>
 $( window ).scroll( function() {
 ( () => {
     // p タグの class を指定
-    const sample = document.querySelectorAll( '.sample' );
+    const ceo = document.querySelectorAll( '.ceo' );
 
     const observer = new IntersectionObserver( entries => {
         entries.forEach( entry => {
             if( entry.intersectionRatio > 0 ) {
-                entry.target.classList.add( 'sample-animation' );
+                entry.target.classList.add( 'ceo-animation' );
             } else {
-                entry.target.classList.remove( 'sample-animation' );
+                entry.target.classList.remove( 'ceo-animation' );
             }
         });
     });
 
-    sample.forEach( img => {
+    ceo.forEach( img => {
         observer.observe( img );
     });
 })();
@@ -336,7 +338,7 @@ $( window ).scroll( function() {
 <p class="space">そこでアリスは、頭のなかで、ひなぎくのくさりをつくったら楽しいだろうけれど、起きあがってひなぎくをつむのもめんどくさいし、どうしようかと考えていました（といっても、昼間で暑いし、とってもねむくて頭もまわらなかったので、これもたいへんだったのですが）。</p>
 <p class="space">そこへいきなり、ピンクの目をした白うさぎが近くを走ってきたのです。それだけなら、そんなにめずらしいことでもありませんでした。さらにアリスとしては、そのうさぎが「どうしよう！　どうしよう！　ちこくしちゃうぞ！」とつぶやくのを聞いたときも、それがそんなにへんてこだとは思いませんでした（あとから考えてみたら、これも不思議に思うべきだったのですけれど、でもこのときには、それがごく自然なことに思えたのです）。でもそのうさぎがほんとうに、チョッキのポケットから懐中時計（かいちゅうどけい）をとりだしてそれをながめ、そしてまたあわててかけだしたとき、アリスもとびあがりました。</p>
 <div class="ceoimage">
-<p class="sample sample-second"><img src="img/ceo02.png" alt=""></p>
+<p class="ceo ceo-second"><img src="img/ceo02.png" alt=""></p>
 </div>
 </div>
 
