@@ -3,7 +3,6 @@
 <div id="main">
 <div id="main-all">
 
-
 <style type="text/css">
 
 h2{
@@ -289,12 +288,14 @@ width:600px;
 </div>
 <!-- /PC -->
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="/js/crossfade.jquery.js"></script>
 <script>
 $(function(){
     $('.crossfade').crossfade();
 });
 </script>
+
 </div>
 <?php include ('../side.php'); ?>
 </div>
