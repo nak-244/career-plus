@@ -288,6 +288,11 @@ width:600px;
 </div>
 <!-- /PC -->
 
+</div>
+<?php include ('../side.php'); ?>
+</div>
+<?php include ('../footer.php'); ?>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="/js/crossfade.jquery.js"></script>
 <script>
@@ -295,8 +300,3 @@ $(function(){
     $('.crossfade').crossfade();
 });
 </script>
-
-</div>
-<?php include ('../side.php'); ?>
-</div>
-<?php include ('../footer.php'); ?>
