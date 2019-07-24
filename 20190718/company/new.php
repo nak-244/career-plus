@@ -20,7 +20,9 @@ font-weight:bold;
 .space{
 margin:1em 0;
 }
-
+.crossfade {
+    position: fixed;
+}
 /*--SP--*/
 .sp_disp .content-all{
 margin: 1em auto;
@@ -267,7 +269,7 @@ width:600px;
 
 <div class="content2">
 <h3>代表挨拶</h3>
-<img src="img/ceo01.png" width="100%">
+
 <div class="crossfade" data-crossfade-start="img/ceo01.png" data-crossfade-end="img/ceo02.png">
 </div>
 <p class="space">アリスは川辺でおねえさんのよこにすわって、なんにもすることがないのでとても退屈（たいくつ）しはじめていました。一、二回はおねえさんの読んでいる本をのぞいてみたけれど、そこには絵も会話もないのです。「絵や会話のない本なんて、なんの役にもたたないじゃないの」とアリスは思いました。</p>
