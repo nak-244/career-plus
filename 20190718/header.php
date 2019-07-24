@@ -7,7 +7,7 @@
 <meta name="description" content="コールセンター派遣ならキャリアプラス！">
 <link rel="shortcut icon" href="https://www.career-plus.co.jp/img/favicon.png">
 <link rel="stylesheet" type="text/css" href="/css/index.css">
-<script src="js/jquery.min.js"></script>
+<script src="/js/jquery.min.js"></script>
 </head>
 
 <style type="text/css">
@@ -186,4 +186,3 @@ width: 98%;
 
 </header>
 </div><!--/pc_disp-->
-
