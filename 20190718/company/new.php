@@ -154,12 +154,12 @@ width:600px;
 
 <div class="content2">
 <h3>代表挨拶</h3>
-<img src="img/ceo01.png" width="100%">
 <p class="space">アリスは川辺でおねえさんのよこにすわって、なんにもすることがないのでとても退屈（たいくつ）しはじめていました。一、二回はおねえさんの読んでいる本をのぞいてみたけれど、そこには絵も会話もないのです。「絵や会話のない本なんて、なんの役にもたたないじゃないの」とアリスは思いました。</p>
 <p class="space">そこでアリスは、頭のなかで、ひなぎくのくさりをつくったら楽しいだろうけれど、起きあがってひなぎくをつむのもめんどくさいし、どうしようかと考えていました（といっても、昼間で暑いし、とってもねむくて頭もまわらなかったので、これもたいへんだったのですが）。</p>
 <p class="space">そこへいきなり、ピンクの目をした白うさぎが近くを走ってきたのです。それだけなら、そんなにめずらしいことでもありませんでした。さらにアリスとしては、そのうさぎが「どうしよう！　どうしよう！　ちこくしちゃうぞ！」とつぶやくのを聞いたときも、それがそんなにへんてこだとは思いませんでした（あとから考えてみたら、これも不思議に思うべきだったのですけれど、でもこのときには、それがごく自然なことに思えたのです）。でもそのうさぎがほんとうに、チョッキのポケットから懐中時計（かいちゅうどけい）をとりだしてそれをながめ、そしてまたあわててかけだしたとき、アリスもとびあがりました。</p>
-<p class="space">というのも、チョッキのポケットなんかがあるうさぎはこれまで見たことがないし、そこからとりだす時計をもっているうさぎなんかも見たことないぞ、というのに急に気がついたからです。</p>
-<p class="space">そこで、興味（きょうみ）しんしんになったアリスは、うさぎのあとを追っかけて野原をよこぎって、それがしげみの下の、おっきなうさぎの穴にとびこむのを、ぎりぎりのところで見つけました。次のしゅんかんに、アリスもそのあとを追っかけてとびこみました。いったいぜんたいどうやってそこから出ようか、なんてことはちっとも考えなかったのです。うさぎの穴は、しばらくはトンネルみたいにまっすぐつづいて、それからいきなりズドンと下におりていました。それがすごくいきなりで、アリスがとまろうとか思うひまもあればこそ、気がつくとなにやら深い井戸みたいなところを落っこちているところでした。</p>
+<div class="ceoimage">
+<p class="sample sample-second"><img src="img/ceo02.png" alt=""></p>
+</div>
 </div>
 
 <div class="content3">
@@ -260,17 +260,84 @@ width:600px;
 
 </div>
 
+<style type="text/css">
+.ceoimage {
+  background-size:cover;
+  width: 100%;
+  background:url(img/ceo01.png) center no-repeat;
+  background-size: cover;
+}
+.sample {
+  overflow: hidden;
+  position: relative;
+}
 
+.sample img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+.sample-second.sample-animation {
+  animation: sample-second-img 2s cubic-bezier(.4, 0, .2, 1);
+}
+
+.sample-second.sample-animation:before {
+  animation: sample-second-before 2s cubic-bezier(.4, 0, .2, 1) forwards;
+  background: #fff;
+  bottom: 0;
+  content: '';
+  left: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+@keyframes sample-second-img {
+  0% {
+    opacity: 0;
+  }
+}
+
+@keyframes sample-second-before {
+  100% {
+    transform: translateX(100%);
+  }
+}
+</style>
+<script>
+$( window ).scroll( function() {
+( () => {
+    // p タグの class を指定
+    const sample = document.querySelectorAll( '.sample' );
+
+    const observer = new IntersectionObserver( entries => {
+        entries.forEach( entry => {
+            if( entry.intersectionRatio > 0 ) {
+                entry.target.classList.add( 'sample-animation' );
+            } else {
+                entry.target.classList.remove( 'sample-animation' );
+            }
+        });
+    });
+
+    sample.forEach( img => {
+        observer.observe( img );
+    });
+})();
+});
+</script>
 <div class="wrap2">
 
 <div class="content2">
 <h3>代表挨拶</h3>
-<img src="img/ceo01.png" width="100%">
 <p class="space">アリスは川辺でおねえさんのよこにすわって、なんにもすることがないのでとても退屈（たいくつ）しはじめていました。一、二回はおねえさんの読んでいる本をのぞいてみたけれど、そこには絵も会話もないのです。「絵や会話のない本なんて、なんの役にもたたないじゃないの」とアリスは思いました。</p>
 <p class="space">そこでアリスは、頭のなかで、ひなぎくのくさりをつくったら楽しいだろうけれど、起きあがってひなぎくをつむのもめんどくさいし、どうしようかと考えていました（といっても、昼間で暑いし、とってもねむくて頭もまわらなかったので、これもたいへんだったのですが）。</p>
 <p class="space">そこへいきなり、ピンクの目をした白うさぎが近くを走ってきたのです。それだけなら、そんなにめずらしいことでもありませんでした。さらにアリスとしては、そのうさぎが「どうしよう！　どうしよう！　ちこくしちゃうぞ！」とつぶやくのを聞いたときも、それがそんなにへんてこだとは思いませんでした（あとから考えてみたら、これも不思議に思うべきだったのですけれど、でもこのときには、それがごく自然なことに思えたのです）。でもそのうさぎがほんとうに、チョッキのポケットから懐中時計（かいちゅうどけい）をとりだしてそれをながめ、そしてまたあわててかけだしたとき、アリスもとびあがりました。</p>
-<p class="space">というのも、チョッキのポケットなんかがあるうさぎはこれまで見たことがないし、そこからとりだす時計をもっているうさぎなんかも見たことないぞ、というのに急に気がついたからです。</p>
-<p class="space">そこで、興味（きょうみ）しんしんになったアリスは、うさぎのあとを追っかけて野原をよこぎって、それがしげみの下の、おっきなうさぎの穴にとびこむのを、ぎりぎりのところで見つけました。次のしゅんかんに、アリスもそのあとを追っかけてとびこみました。いったいぜんたいどうやってそこから出ようか、なんてことはちっとも考えなかったのです。うさぎの穴は、しばらくはトンネルみたいにまっすぐつづいて、それからいきなりズドンと下におりていました。それがすごくいきなりで、アリスがとまろうとか思うひまもあればこそ、気がつくとなにやら深い井戸みたいなところを落っこちているところでした。</p>
+<div class="ceoimage">
+<p class="sample sample-second"><img src="img/ceo02.png" alt=""></p>
+</div>
 </div>
 
 <div class="content3">
