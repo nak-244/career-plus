@@ -4,7 +4,7 @@
 <div id="main-all">
 <!--/トップ固定-->
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 <script type="text/javascript">
 $(function(){
 	var setImg = '#viewer';
@@ -29,7 +29,6 @@ $(function(){
 </script>
 
 <style type="text/css">
-<!--
 /*--SP--*/
 .sp_disp .bgcolor{
 background-color:#1f1f1f;
@@ -87,10 +86,10 @@ width:49%;
 float:right;
 width:49%;
 }
-.pc_disp .button img{
+.pc_disp .button img {
 width:100%;
 }
--->
+
 </style>
 
 <div class="sp_disp">
@@ -110,9 +109,9 @@ width:100%;
  <a href="office"><img src="img/button2_sp.png" alt="事業所案内"></a>
  </div>
  <div style="clear:both;"></div>
-</div><!--/button-->
+</div>
 
-</div><!--/sp_disp-->
+</div>
 
 
 
@@ -131,13 +130,12 @@ width:100%;
  <a href="office"><img src="img/button2.png" alt="事業所案内"></a>
  </div>
  <div style="clear:both;"></div>
-</div><!--/button-->
+</div>
 
-</div><!--/pc_disp-->
+</div>
 
 
-<!--下部固定/-->
-</div><!--main-all-->
+</div>
 <?php include ('side.php'); ?>
-</div><!--main-->
+</div>
 <?php include ('footer.php'); ?>
