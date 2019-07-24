@@ -19,9 +19,6 @@ font-weight:bold;
 .space{
 margin:1em 0;
 }
-.crossfade {
-    position: fixed;
-}
 /*--SP--*/
 .sp_disp .content-all{
 margin: 1em auto;
@@ -268,9 +265,7 @@ width:600px;
 
 <div class="content2">
 <h3>代表挨拶</h3>
-
-<div class="crossfade" data-crossfade-start="img/ceo01.png" data-crossfade-end="img/ceo02.png">
-</div>
+<img src="img/ceo01.png" width="100%">
 <p class="space">アリスは川辺でおねえさんのよこにすわって、なんにもすることがないのでとても退屈（たいくつ）しはじめていました。一、二回はおねえさんの読んでいる本をのぞいてみたけれど、そこには絵も会話もないのです。「絵や会話のない本なんて、なんの役にもたたないじゃないの」とアリスは思いました。</p>
 <p class="space">そこでアリスは、頭のなかで、ひなぎくのくさりをつくったら楽しいだろうけれど、起きあがってひなぎくをつむのもめんどくさいし、どうしようかと考えていました（といっても、昼間で暑いし、とってもねむくて頭もまわらなかったので、これもたいへんだったのですが）。</p>
 <p class="space">そこへいきなり、ピンクの目をした白うさぎが近くを走ってきたのです。それだけなら、そんなにめずらしいことでもありませんでした。さらにアリスとしては、そのうさぎが「どうしよう！　どうしよう！　ちこくしちゃうぞ！」とつぶやくのを聞いたときも、それがそんなにへんてこだとは思いませんでした（あとから考えてみたら、これも不思議に思うべきだったのですけれど、でもこのときには、それがごく自然なことに思えたのです）。でもそのうさぎがほんとうに、チョッキのポケットから懐中時計（かいちゅうどけい）をとりだしてそれをながめ、そしてまたあわててかけだしたとき、アリスもとびあがりました。</p>
@@ -292,11 +287,3 @@ width:600px;
 <?php include ('../side.php'); ?>
 </div>
 <?php include ('../footer.php'); ?>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="/js/crossfade.jquery.js"></script>
-<script>
-$(function(){
-    $('.crossfade').crossfade();
-});
-</script>
