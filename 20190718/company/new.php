@@ -279,7 +279,7 @@ width:600px;
 }
 /* animation */
 .ceo-second.ceo-animation {
-  animation: ceo-second-img 10s cubic-bezier(.4, 0, .2, 1);
+  animation: ceo-second-img 8s cubic-bezier(.4, 0, .2, 1);
 }
 
 .ceo-second.ceo-animation:before {
