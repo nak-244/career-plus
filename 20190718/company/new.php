@@ -68,7 +68,7 @@ width:600px;
 }
 
 </style>
-
+<!-- スマホ -->
 <div class="sp_disp">
 
 <div class="wrap">
@@ -168,9 +168,9 @@ width:600px;
 </div>
 
 </div>
+<!-- /スマホ -->
 
-
-
+<!-- PC -->
 <div class="pc_disp">
 
 <div class="wrap">
@@ -277,7 +277,7 @@ width:600px;
 </div>
 
 </div>
-
+<!-- /PC -->
 
 </div>
 <?php include ('../side.php'); ?>
