@@ -2,10 +2,10 @@
 <title>会社概要 |【公式】株式会社キャリアプラス - 日払い対応人材派遣サービス</title>
 <div id="main">
 <div id="main-all">
-<!--/トップ固定-->
+
 
 <style type="text/css">
-<!--
+
 h2{
 text-align: center;
 border-bottom: double 6px #9d0784;
@@ -66,7 +66,7 @@ text-align:right;
 margin:2em auto;
 width:600px;
 }
--->
+
 </style>
 
 <div class="sp_disp">
@@ -83,7 +83,7 @@ width:600px;
 <div class="content-r">
 <p>株式会社キャリアプラス  Career plus Inc.</p>
 </div>
-</div><!--/content-->
+</div>
 
 <div class="content">
 <div class="content-l">
@@ -92,7 +92,7 @@ width:600px;
 <div class="content-r">
 <p>2013（平成25）年1月25日</p>
 </div>
-</div><!--/content-->
+</div>
 
 <div class="content">
 <div class="content-l">
@@ -102,7 +102,7 @@ width:600px;
 <p>ヒューマンリソーシズ事業<br>
 コールセンター受託運営サービス事業</p>
 </div>
-</div><!--/content-->
+</div>
 
 <div class="content">
 <div class="content-l">
@@ -111,7 +111,7 @@ width:600px;
 <div class="content-r">
 <p>魚山 毅</p>
 </div>
-</div><!--/content-->
+</div>
 
 <div class="content">
 <div class="content-l">
@@ -120,7 +120,7 @@ width:600px;
 <div class="content-r">
 <p>1億円（2016年9月現在）</p>
 </div>
-</div><!--/content-->
+</div>
 
 <div class="content">
 <div class="content-l">
@@ -130,7 +130,7 @@ width:600px;
 <p>労働者派遣事業許可番号　派13-305359<br>
 有料職業紹介事業許可番号   13-ユ-306072</p>
 </div>
-</div><!--/content-->
+</div>
 
 <div class="content">
 <div class="content-l">
@@ -139,15 +139,15 @@ width:600px;
 <div class="content-r">
 <p>三井住友銀行 新宿支店</p>
 </div>
-</div><!--/content-->
+</div>
 
 <div class="content">
 <a href="https://privacymark.jp/" target="_blank" rel="nofollow"><img src="../img/mark_p.png" alt="Pマーク"></a>
-</div><!--/content-->
+</div>
 
-</div><!--/content-all-->
+</div>
 
-</div><!--/wrap-->
+</div>
 
 
 <div class="wrap2">
@@ -158,16 +158,16 @@ width:600px;
 <p class="space">長年、オープンループ・グループで蓄積されたテレマーケティング・エージェンシー様向けのサービスの ノウハウを最大限に活かし、コールセンターの集積地である札幌と沖縄に支店展開致します。</p>
 <p class="space">昨今の国内の雇用情勢におきましては、緩やかに有効求人倍率は回復しているものの、雇用と仕事のミスマッチが大きく、潜在的な労働力を活かされていない現状がございます。</p>
 <p class="space">私どもは、このような札幌や沖縄のようなコールセンターが集積されているエリアでの労働環境を変革していく事を使命とし、地域に密着した人材会社として、スタートしていきたいと考えております。 今後ともより一層のご支援、ご指導を賜りますようお願い申し上げます。</p>
-</div><!--/content-->
+</div>
 
 <div class="content3">
 <p>平成２５年６月１日</p>
 <img src="img/ceo_name.png" alt="代表取締役">
-</div><!--/content-->
+</div>
 
-</div><!--/wrap2-->
+</div>
 
-</div><!--/sp_disp-->
+</div>
 
 
 
@@ -186,7 +186,7 @@ width:600px;
 <p>株式会社キャリアプラス  Career plus Inc.</p>
 </div>
 <div style="clear:both;"></div>
-</div><!--/content-->
+</div>
 
 <div class="content">
 <div class="content-l">
@@ -196,7 +196,7 @@ width:600px;
 <p>2013（平成25）年1月25日</p>
 </div>
 <div style="clear:both;"></div>
-</div><!--/content-->
+</div>
 
 <div class="content">
 <div class="content-l">
@@ -207,7 +207,7 @@ width:600px;
 コールセンター受託運営サービス事業</p>
 </div>
 <div style="clear:both;"></div>
-</div><!--/content-->
+</div>
 
 <div class="content">
 <div class="content-l">
@@ -217,7 +217,7 @@ width:600px;
 <p>魚山 毅</p>
 </div>
 <div style="clear:both;"></div>
-</div><!--/content-->
+</div>
 
 <div class="content">
 <div class="content-l">
@@ -227,7 +227,7 @@ width:600px;
 <p>1億円（2016年9月現在）</p>
 </div>
 <div style="clear:both;"></div>
-</div><!--/content-->
+</div>
 
 <div class="content">
 <div class="content-l">
@@ -238,7 +238,7 @@ width:600px;
 有料職業紹介事業許可番号   13-ユ-306072</p>
 </div>
 <div style="clear:both;"></div>
-</div><!--/content-->
+</div>
 
 <div class="content">
 <div class="content-l">
@@ -248,15 +248,15 @@ width:600px;
 <p>三井住友銀行 新宿支店</p>
 </div>
 <div style="clear:both;"></div>
-</div><!--/content-->
+</div>
 
 <div class="content">
 <a href="https://privacymark.jp/" target="_blank" rel="nofollow"><img src="../img/mark_p.png" alt="Pマーク"></a>
-</div><!--/content-->
+</div>
 
-</div><!--/content-all-->
+</div>
 
-</div><!--/wrap-->
+</div>
 
 
 <div class="wrap2">
@@ -267,20 +267,19 @@ width:600px;
 <p class="space">長年、オープンループ・グループで蓄積されたテレマーケティング・エージェンシー様向けのサービスの ノウハウを最大限に活かし、コールセンターの集積地である札幌と沖縄に支店展開致します。</p>
 <p class="space">昨今の国内の雇用情勢におきましては、緩やかに有効求人倍率は回復しているものの、雇用と仕事のミスマッチが大きく、潜在的な労働力を活かされていない現状がございます。</p>
 <p class="space">私どもは、このような札幌や沖縄のようなコールセンターが集積されているエリアでの労働環境を変革していく事を使命とし、地域に密着した人材会社として、スタートしていきたいと考えております。 今後ともより一層のご支援、ご指導を賜りますようお願い申し上げます。</p>
-</div><!--/content-->
+</div>
 
 <div class="content3">
 <p>平成２５年６月１日</p>
 <img src="img/ceo_name.png" alt="代表取締役">
-</div><!--/content-->
+</div>
 
-</div><!--/wrap2-->
+</div>
 
-</div><!--/pc_disp-->
+</div>
 
 
-<!--下部固定/-->
-</div><!--main-all-->
+</div>
 <?php include ('../side.php'); ?>
-</div><!--main-->
+</div>
 <?php include ('../footer.php'); ?>
