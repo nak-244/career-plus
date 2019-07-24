@@ -109,7 +109,7 @@ width:600px;
 <p class="bold">代表取締役</p>
 </div>
 <div class="content-r">
-<p>魚山 毅</p>
+<p>山本　賢一</p>
 </div>
 </div>
 
@@ -214,7 +214,7 @@ width:600px;
 <p class="bold">代表取締役</p>
 </div>
 <div class="content-r">
-<p>魚山 毅</p>
+<p>山本　賢一</p>
 </div>
 <div style="clear:both;"></div>
 </div>
