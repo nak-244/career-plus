@@ -5,7 +5,7 @@
 <!--/トップ固定-->
 
 <style type="text/css">
-<!--
+
 h2{
 text-align: center;
 border-bottom: double 6px #9d0784;
@@ -66,7 +66,7 @@ text-align:right;
 margin:2em auto;
 width:600px;
 }
--->
+
 </style>
 
 <div class="sp_disp">
@@ -109,7 +109,7 @@ width:600px;
 <p class="bold">代表取締役</p>
 </div>
 <div class="content-r">
-<p>魚山 毅</p>
+<p>山本　賢一</p>
 </div>
 </div><!--/content-->
 
@@ -150,7 +150,7 @@ width:600px;
 </div><!--/wrap-->
 
 
-<div class="wrap2">
+<!-- <div class="wrap2">
 
 <div class="content2">
 <h3>代表挨拶</h3>
@@ -158,14 +158,14 @@ width:600px;
 <p class="space">長年、オープンループ・グループで蓄積されたテレマーケティング・エージェンシー様向けのサービスの ノウハウを最大限に活かし、コールセンターの集積地である札幌と沖縄に支店展開致します。</p>
 <p class="space">昨今の国内の雇用情勢におきましては、緩やかに有効求人倍率は回復しているものの、雇用と仕事のミスマッチが大きく、潜在的な労働力を活かされていない現状がございます。</p>
 <p class="space">私どもは、このような札幌や沖縄のようなコールセンターが集積されているエリアでの労働環境を変革していく事を使命とし、地域に密着した人材会社として、スタートしていきたいと考えております。 今後ともより一層のご支援、ご指導を賜りますようお願い申し上げます。</p>
-</div><!--/content-->
+</div>
 
 <div class="content3">
 <p>平成２５年６月１日</p>
 <img src="img/ceo_name.png" alt="代表取締役">
-</div><!--/content-->
+</div>
 
-</div><!--/wrap2-->
+</div> -->
 
 </div><!--/sp_disp-->
 
@@ -214,7 +214,7 @@ width:600px;
 <p class="bold">代表取締役</p>
 </div>
 <div class="content-r">
-<p>魚山 毅</p>
+<p>山本　賢一</p>
 </div>
 <div style="clear:both;"></div>
 </div><!--/content-->
@@ -259,7 +259,7 @@ width:600px;
 </div><!--/wrap-->
 
 
-<div class="wrap2">
+<!-- <div class="wrap2">
 
 <div class="content2">
 <h3>代表挨拶</h3>
@@ -267,14 +267,14 @@ width:600px;
 <p class="space">長年、オープンループ・グループで蓄積されたテレマーケティング・エージェンシー様向けのサービスの ノウハウを最大限に活かし、コールセンターの集積地である札幌と沖縄に支店展開致します。</p>
 <p class="space">昨今の国内の雇用情勢におきましては、緩やかに有効求人倍率は回復しているものの、雇用と仕事のミスマッチが大きく、潜在的な労働力を活かされていない現状がございます。</p>
 <p class="space">私どもは、このような札幌や沖縄のようなコールセンターが集積されているエリアでの労働環境を変革していく事を使命とし、地域に密着した人材会社として、スタートしていきたいと考えております。 今後ともより一層のご支援、ご指導を賜りますようお願い申し上げます。</p>
-</div><!--/content-->
+</div>
 
 <div class="content3">
 <p>平成２５年６月１日</p>
 <img src="img/ceo_name.png" alt="代表取締役">
-</div><!--/content-->
+</div>
 
-</div><!--/wrap2-->
+</div> -->
 
 </div><!--/pc_disp-->
 
