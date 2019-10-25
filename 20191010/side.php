@@ -113,11 +113,11 @@ border-bottom: dotted 1px #888;
 <div class="side2">
 <p class="bold violet size17"><span class="size21">■</span>お知らせ</p>
 <ul>
+<li><span class="bold violet">2019/10/24：<br></span><a href="/pdf/cap_201901024.pdf">令和元年台風第19号災害義援金</a></li>
 <li><span class="bold violet">2019/09/24：<br></span><a href="/pdf/cap_2019092401.pdf">社会貢献活動報告（「子ども食堂」支援）</a></li>
 <li><span class="bold violet">2019/09/24：<br></span><a href="/pdf/cap_2019092402.pdf">令和元年台風第15号千葉県災害義援金</a></li>
 <li><span class="bold violet">2019/09/24：<br></span><a href="/pdf/cap_2019092403.pdf">社会貢献活動報告</a></li>
 <li><span class="bold violet">2019/03/07：<br></span><a href="/pdf/cap_190307.pdf">平成30年北海道胆振東部地震災害義援金</a></li>
-<li><span class="bold violet">2018/09/19：<br></span><a href="/pdf/cap_180919.pdf">平成30年北海道胆振東部地震災害義援金</a></li>
 </ul>
 </div>
 
@@ -138,11 +138,11 @@ border-bottom: dotted 1px #888;
 <div class="side2">
 <p class="bold violet size17"><span class="size21">■</span>お知らせ</p>
 <ul>
+<li><span class="bold violet">2019/10/24：<br></span><a href="/pdf/cap_201901024.pdf">令和元年台風第19号災害義援金</a></li>
 <li><span class="bold violet">2019/09/24：<br></span><a href="/pdf/cap_2019092401.pdf">社会貢献活動報告（「子ども食堂」支援）</a></li>
 <li><span class="bold violet">2019/09/24：<br></span><a href="/pdf/cap_2019092402.pdf">令和元年台風第15号千葉県災害義援金</a></li>
 <li><span class="bold violet">2019/09/24：<br></span><a href="/pdf/cap_2019092403.pdf">社会貢献活動報告</a></li>
 <li><span class="bold violet">2019/03/07：<br></span><a href="/pdf/cap_190307.pdf">平成30年北海道胆振東部地震災害義援金</a></li>
-<li><span class="bold violet">2018/09/19：<br></span><a href="/pdf/cap_180919.pdf">平成30年北海道胆振東部地震災害義援金</a></li>
 </ul>
 </div>
 
