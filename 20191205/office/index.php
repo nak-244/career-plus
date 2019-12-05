@@ -74,6 +74,15 @@ Tel: 03-5909-0790<br>Fax: 03-5909-0791</p>
 </div><!--/content1-->
 
 <div class="content-1">
+<h3>大阪支店</h3>
+<p class="address">〒541-0053<br>
+大阪府大阪市中央区本町4丁目4-17 RE-012 5F<br>
+Tel: 06-6258-8630<br>Fax: 06-6258-8631</p>
+<div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.877994733713!2d135.4964013152318!3d34.68302858043912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6e29d2883a7%3A0xeb1d78a3788134ae!2z44CSNTQxLTAwNTMg5aSn6Ziq5bqc5aSn6Ziq5biC5Lit5aSu5Yy65pys55S677yU5LiB55uu77yU4oiS77yR77yX!5e0!3m2!1sja!2sjp!4v1575508199861!5m2!1sja!2sjp" frameborder="0" style="border:0"></iframe>
+</div>
+</div><!--/content1-->
+
+<div class="content-1">
 <h3>福岡支店</h3>
 <p class="address">〒812-0011<br>
 福岡県福岡市博多区博多駅前3-2-8 住友生命博多ビル6F<br>
@@ -126,6 +135,15 @@ Tel: 011-222-1350　Fax: 011-222-1351</p>
 東京都新宿区西新宿3-1-3 MITSUWAビル7F<br>
 Tel: 03-5909-0790　Fax: 03-5909-0791</p>
 <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.579843462993!2d139.69518390000005!3d35.68734620000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188cd234cc59df%3A0xa1a7f9493a2bcae8!2z44CSMTYwLTAwMjMg5p2x5Lqs6YO95paw5a6_5Yy66KW_5paw5a6_77yT5LiB55uu77yR4oiS77yT!5e0!3m2!1sja!2sjp!4v1425628482220" width="600" height="250" frameborder="0" style="border:0"></iframe>
+</div>
+</div><!--/content1-->
+
+<div class="content-1">
+<h3>大阪支店</h3>
+<p class="address">〒541-0053<br>
+大阪府大阪市中央区本町4丁目4-17 RE-012 5F<br>
+Tel: 06-6258-8630　Fax: 06-6258-8631</p>
+<div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.877994733713!2d135.4964013152318!3d34.68302858043912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6e29d2883a7%3A0xeb1d78a3788134ae!2z44CSNTQxLTAwNTMg5aSn6Ziq5bqc5aSn6Ziq5biC5Lit5aSu5Yy65pys55S677yU5LiB55uu77yU4oiS77yR77yX!5e0!3m2!1sja!2sjp!4v1575508199861!5m2!1sja!2sjp" width="600" height="250" frameborder="0" style="border:0"></iframe>
 </div>
 </div><!--/content1-->
 
