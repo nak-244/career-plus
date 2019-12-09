@@ -207,9 +207,9 @@ border:1px solid #ccc;
 
 <div class="content2">
 <p>制定年月日　2013年6月1日<br>
-最終改訂日 2015年1月20日<br>
+最終改訂日 2019年11月28日<br>
 株式会社キャリアプラス<br>
-代表取締役　魚山　毅</p>
+代表取締役　山本賢一</p>
 </div><!--/content-->
 
 <div class="content">
@@ -390,9 +390,9 @@ MAIL：privacyinfo-cap@career-plus.co.jp<br>
 
 <div class="content2">
 <p>制定年月日　2013年6月1日<br>
-最終改訂日 2015年1月20日<br>
+最終改訂日 2019年11月28日<br>
 株式会社キャリアプラス<br>
-代表取締役　魚山　毅</p>
+代表取締役　山本賢一</p>
 </div><!--/content-->
 
 <div class="content">
