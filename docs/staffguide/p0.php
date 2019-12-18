@@ -188,8 +188,8 @@ margin: 0 10px;
 <div class="b-left">
 <p class="mark3">会社名</p>
 <p>株式会社 キャリアプラス<br>Career plus Inc.</p>
-<p class="hp-url">（ ホームページ：http://www.career-plus.co.jp/ ）</p>
-<p class="mark3">代表取締役社長 　魚山　毅</p>
+<p class="hp-url">（ ホームページ：https://www.career-plus.co.jp/ ）</p>
+<p class="mark3">代表取締役社長 　山本　賢一</p>
 <p class="mark3">事業内容</p>
 <ul>
 <li>・ヒューマンリソーシズ事業</li>
@@ -283,8 +283,8 @@ margin: 0 10px;
 <div class="b-left">
 <p class="mark3">会社名</p>
 <p>株式会社 キャリアプラス<br>Career plus Inc.</p>
-<p class="hp-url">（ ホームページ：http://www.career-plus.co.jp/ ）</p>
-<p class="mark3">代表取締役社長 　魚山　毅</p>
+<p class="hp-url">（ ホームページ：https://www.career-plus.co.jp/ ）</p>
+<p class="mark3">代表取締役社長 　山本　賢一</p>
 <p class="mark3">事業内容</p>
 <ul>
 <li>・ヒューマンリソーシズ事業</li>
