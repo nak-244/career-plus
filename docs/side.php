@@ -1,5 +1,4 @@
 <style type="text/css">
-<!--
 .side-all li{
 list-style:none;
 }
@@ -99,7 +98,7 @@ margin: .5em 0;
 padding-left: .5em;
 border-bottom: dotted 1px #888;
 }
--->
+
 </style>
 
 <div class="sp_disp">
