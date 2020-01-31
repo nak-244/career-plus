@@ -99,6 +99,10 @@ padding-left: .5em;
 border-bottom: dotted 1px #888;
 }
 
+.pc_disp .side3{
+text-align: center;
+}
+
 </style>
 
 <div class="sp_disp">
@@ -145,7 +149,14 @@ border-bottom: dotted 1px #888;
 </ul>
 </div>
 
+<div class="side3">
+<a href="https://www.aeonbank.co.jp/debit/?trcd=a200001244" target="_blank"><img src="/img/aeon_d.png"></a>
+<a href="https://www.aeonbank.co.jp/aeoncard/lp/aeoncard_select_interest.html?trcd=a200001230" target="_blank"><img src="/img/aeon.png"></a>
+</div>
+
 </div><!--/side-all-->
+
+
 <div style="clear:both;"></div>
 
 </div><!--/pc_disp-->

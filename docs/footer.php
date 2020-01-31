@@ -110,14 +110,6 @@ padding-bottom: .5em;
 </ul>
 </div>
 
-<div class="foot-2">
-<a href="https://click.j-a-net.jp/1595448/718525/"><img src="https://www.career-plus.co.jp/img/CAP_ion_d_602_82.gif" alt="イオン銀行デビットカード"></a>
-</div>
-
-<div class="foot-2">
-<a href="https://www.aeonbank.co.jp/aeoncard/lp/aeoncard_select_interest.html?trcd=a200001230"><img src="https://www.career-plus.co.jp/img/CAP_ion_600_80.png" alt="イオン銀行"></a>
-</div>
-
 <div class="foot-3">
 <p>(C)Career plus Inc. All rights reserved.</p>
 </div>
