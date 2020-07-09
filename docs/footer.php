@@ -77,7 +77,7 @@ padding-bottom: .5em;
 <div class="foot-1">
 <ul>
 <li><a href="/privacy/">プライバシーポリシー</a></li>
-<li><a href="/pdf/cap_1910_1.pdf">労働者派遣事業に関する情報公開について</a></li>
+<li><a href="/pdf/cap_2007.pdf">労働者派遣事業に関する情報公開について</a></li>
 <li><a href="/kyouiku_kunren/">教育訓練計画について</a></li>
 </ul>
 </div>
@@ -105,7 +105,7 @@ padding-bottom: .5em;
 <div class="foot-1">
 <ul>
 <li><a href="/privacy/">プライバシーポリシー</a></li>
-<li><a href="/pdf/cap_1910_1.pdf">労働者派遣事業に関する情報公開について</a></li>
+<li><a href="/pdf/cap_2007.pdf">労働者派遣事業に関する情報公開について</a></li>
 <li><a href="/kyouiku_kunren/">教育訓練計画について</a></li>
 </ul>
 </div>
