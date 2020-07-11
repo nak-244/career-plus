@@ -51,7 +51,8 @@ margin:1em 0;
 <p class="address">〒160-0022<br>
 東京都新宿区新宿4-3-17 FORECAST新宿SOUTH7階<br>
 Tel: 03-6682-4660<br>Fax: 03-6682-4661</p>
-<div class="map"><iframe src="https://www.google.com/maps/place/%E3%80%92160-0022+%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%96%B0%E5%AE%BF%E5%8C%BA%E6%96%B0%E5%AE%BF%EF%BC%94%E4%B8%81%E7%9B%AE%EF%BC%93%E2%88%92%EF%BC%91%EF%BC%97/@35.6885701,139.7017177,17z/data=!3m1!4b1!4m5!3m4!1s0x60188cdad546963f:0x698ab428d3a6e8f5!8m2!3d35.6885658!4d139.7039064?hl=ja" frameborder="0" style="border:0"></iframe>
+<div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.5301231223048!2d139.70171771477933!3d35.68857013717779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188cdad546963f%3A0x698ab428d3a6e8f5!2z44CSMTYwLTAwMjIg5p2x5Lqs6YO95paw5a6_5Yy65paw5a6_77yU5LiB55uu77yT4oiS77yR77yX!5e0!3m2!1sja!2sjp!4v1594434063687!5m2!1sja!2sjp" frameborder="0" style="border:0"></iframe>
+
 </div>
 </div><!--/content1-->
 
@@ -69,7 +70,7 @@ Tel: 011-222-1350<br>Fax: 011-222-1351</p>
 <p class="address">〒160-0022<br>
   東京都新宿区新宿4-3-17 FORECAST新宿SOUTH7階<br>
   Tel: 03-6682-4660<br>Fax: 03-6682-4661</p>
-<div class="map"><iframe src="https://www.google.com/maps/place/%E3%80%92160-0022+%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%96%B0%E5%AE%BF%E5%8C%BA%E6%96%B0%E5%AE%BF%EF%BC%94%E4%B8%81%E7%9B%AE%EF%BC%93%E2%88%92%EF%BC%91%EF%BC%97/@35.6885701,139.7017177,17z/data=!3m1!4b1!4m5!3m4!1s0x60188cdad546963f:0x698ab428d3a6e8f5!8m2!3d35.6885658!4d139.7039064?hl=ja" frameborder="0" style="border:0"></iframe>
+<div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.5301231223048!2d139.70171771477933!3d35.68857013717779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188cdad546963f%3A0x698ab428d3a6e8f5!2z44CSMTYwLTAwMjIg5p2x5Lqs6YO95paw5a6_5Yy65paw5a6_77yU5LiB55uu77yT4oiS77yR77yX!5e0!3m2!1sja!2sjp!4v1594434063687!5m2!1sja!2sjp" frameborder="0" style="border:0"></iframe>
 </div>
 </div><!--/content1-->
 
@@ -116,7 +117,7 @@ Tel: 098-868-3135<br>Fax: 098-868-3136</p>
 <p class="address">〒160-0022<br>
 東京都新宿区新宿4-3-17 FORECAST新宿SOUTH7階<br>
 Tel: 03-6682-4660<br>Fax: 03-6682-4661</p>
-<div class="map"><iframe src="https://www.google.com/maps/place/%E3%80%92160-0022+%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%96%B0%E5%AE%BF%E5%8C%BA%E6%96%B0%E5%AE%BF%EF%BC%94%E4%B8%81%E7%9B%AE%EF%BC%93%E2%88%92%EF%BC%91%EF%BC%97/@35.6885701,139.7017177,17z/data=!3m1!4b1!4m5!3m4!1s0x60188cdad546963f:0x698ab428d3a6e8f5!8m2!3d35.6885658!4d139.7039064?hl=ja" width="600" height="250" frameborder="0" style="border:0"></iframe>
+<div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.5301231223048!2d139.70171771477933!3d35.68857013717779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188cdad546963f%3A0x698ab428d3a6e8f5!2z44CSMTYwLTAwMjIg5p2x5Lqs6YO95paw5a6_5Yy65paw5a6_77yU5LiB55uu77yT4oiS77yR77yX!5e0!3m2!1sja!2sjp!4v1594434063687!5m2!1sja!2sjp" width="600" height="250" frameborder="0" style="border:0"></iframe>
 </div>
 </div><!--/content1-->
 
@@ -134,7 +135,7 @@ Tel: 011-222-1350　Fax: 011-222-1351</p>
 <p class="address">〒160-0022<br>
 東京都新宿区新宿4-3-17 FORECAST新宿SOUTH7階<br>
 Tel: 03-6682-4660<br>Fax: 03-6682-4661</p>
-<div class="map"><iframe src="https://www.google.com/maps/place/%E3%80%92160-0022+%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%96%B0%E5%AE%BF%E5%8C%BA%E6%96%B0%E5%AE%BF%EF%BC%94%E4%B8%81%E7%9B%AE%EF%BC%93%E2%88%92%EF%BC%91%EF%BC%97/@35.6885701,139.7017177,17z/data=!3m1!4b1!4m5!3m4!1s0x60188cdad546963f:0x698ab428d3a6e8f5!8m2!3d35.6885658!4d139.7039064?hl=ja" width="600" height="250" frameborder="0" style="border:0"></iframe>
+<div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.5301231223048!2d139.70171771477933!3d35.68857013717779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188cdad546963f%3A0x698ab428d3a6e8f5!2z44CSMTYwLTAwMjIg5p2x5Lqs6YO95paw5a6_5Yy65paw5a6_77yU5LiB55uu77yT4oiS77yR77yX!5e0!3m2!1sja!2sjp!4v1594434063687!5m2!1sja!2sjp" width="600" height="250" frameborder="0" style="border:0"></iframe>
 </div>
 </div><!--/content1-->
 
