@@ -118,7 +118,7 @@ width:600px;
 <p class="bold">資本金</p>
 </div>
 <div class="content-r">
-<p>1億円（2016年9月現在）</p>
+<p>5,000万円（2020年9月30日現在）</p>
 </div>
 </div><!--/content-->
 
@@ -224,7 +224,7 @@ width:600px;
 <p class="bold">資本金</p>
 </div>
 <div class="content-r">
-<p>1億円（2016年9月現在）</p>
+<p>5,000万円（2020年9月30日現在）</p>
 </div>
 <div style="clear:both;"></div>
 </div><!--/content-->
