@@ -139,7 +139,7 @@ width: 98%;
 <a href="https://www.career-plus.co.jp/"><img src="https://www.career-plus.co.jp/img/logo_career_plus.png" alt="キャリアプラス"></a>
 </div>
 <div class="header-1-r">
-<a href="https://www.s-mypage.com/mypage/login/user_login?cp=career_p">スタッフ専用マイページ</a>
+<a href="https://www.s-mypage.com/mypage/cap">スタッフ専用マイページ</a>
 </div>
 <div style="clear:both;"></div>
 </div><!--/header-1-->
@@ -171,7 +171,7 @@ width: 98%;
 </div>
 
 <div class="header-1-r">
-<p><a href="https://www.s-mypage.com/mypage/login/user_login?cp=career_p">スタッフ専用マイページ</a></p>
+<p><a href="https://www.s-mypage.com/mypage/cap">スタッフ専用マイページ</a></p>
 </div>
 <div style="clear:both;"></div>
 </div><!--/header-1-->

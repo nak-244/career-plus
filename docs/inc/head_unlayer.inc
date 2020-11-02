@@ -11,7 +11,7 @@
 					<li class="sp_set"><a href="../">トップ</a></li>
 					<li class="sp_set"><a href="http://www.career-plus.co.jp/company/index.php">会社概要</a></li>
 					<li class="sp_set"><a href="http://www.career-plus.co.jp/company/voice.php">代表挨拶</a></li>
-					<li class="sp_set"><a target="_blank" href="https://www.s-mypage.com/mypage/login/user_login?cp=career_p">スタッフ専用<br />マイページへ</a></li>
+					<li class="sp_set"><a target="_blank" href="https://www.s-mypage.com/mypage/cap">スタッフ専用<br />マイページへ</a></li>
 					<li class="sp_set"><a target="_blank" href="http://www.hibarai.com/index.cfm?fuseaction=job.joblist&sfw=csa">札幌の<br />お仕事情報</a></li>
 					<li class="sp_set"><a target="_blank" href="http://www.hibarai.com/index.cfm?fuseaction=job.joblist&sfw=csh">新宿の<br />お仕事情報</a></li>
 					<li class="sp_set"><a target="_blank" href="https://www.hibarai.com/index.cfm?fuseaction=job.joblist&sno=&sar=9&sfw=%E3%82%AD%E3%83%A3%E3%83%AA%E3%82%A2%E3%83%97%E3%83%A9%E3%82%B9">福岡の<br />お仕事情報</a></li>
