@@ -116,11 +116,11 @@ text-align: center;
 <div class="side2">
 <p class="bold violet size17"><span class="size21">■</span>お知らせ</p>
 <ul>
+<li><span class="bold violet">2020/12/14：<br></span><a href="/pdf/cap_20201214.pdf">医療機関を応援するための寄付</a></li>
 <li><span class="bold violet">2020/07/10：<br></span><a href="/pdf/cap_20200710.pdf">特別感謝金のお知らせ</a></li>
 <li><span class="bold violet">2020/01/31：<br></span><a href="https://www.career-plus.co.jp/yume2020/">第３回あなたの夢をサポートします</a></li>
 <li><span class="bold violet">2019/10/24：<br></span><a href="/pdf/cap_20191024.pdf">令和元年台風第19号災害義援金</a></li>
 <li><span class="bold violet">2019/09/24：<br></span><a href="/pdf/cap_2019092401.pdf">社会貢献活動報告（「子ども食堂」支援）</a></li>
-<li><span class="bold violet">2019/09/24：<br></span><a href="/pdf/cap_2019092402.pdf">令和元年台風第15号千葉県災害義援金</a></li>
 </ul>
 </div>
 
@@ -141,11 +141,11 @@ text-align: center;
 <div class="side2">
 <p class="bold violet size17"><span class="size21">■</span>お知らせ</p>
 <ul>
+  <li><span class="bold violet">2020/12/14：<br></span><a href="/pdf/cap_20201214.pdf">医療機関を応援するための寄付</a></li>
   <li><span class="bold violet">2020/07/10：<br></span><a href="/pdf/cap_20200710.pdf">特別感謝金のお知らせ</a></li>
   <li><span class="bold violet">2020/01/31：<br></span><a href="https://www.career-plus.co.jp/yume2020/">第３回あなたの夢をサポートします</a></li>
   <li><span class="bold violet">2019/10/24：<br></span><a href="/pdf/cap_20191024.pdf">令和元年台風第19号災害義援金</a></li>
   <li><span class="bold violet">2019/09/24：<br></span><a href="/pdf/cap_2019092401.pdf">社会貢献活動報告（「子ども食堂」支援）</a></li>
-  <li><span class="bold violet">2019/09/24：<br></span><a href="/pdf/cap_2019092402.pdf">令和元年台風第15号千葉県災害義援金</a></li>
 </ul>
 </div>
 
