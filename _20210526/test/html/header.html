@@ -1,0 +1,47 @@
+<script>
+	$(".spmenubtn").on("click", function() {
+		$(this).next().slideToggle();
+		$(this).toggleClass("active");
+		$(this).addClass('test');
+	});
+	$(".parent a").on("click", function() {
+		$(this).next().slideToggle();
+		$(this).toggleClass("active");
+	});
+</script>
+
+<div class="logo"><a href="index.html"><img src="img/logo.png" alt="キャリアプラス"></a></div>
+<ul class="gnavi">
+	<li><a href="service.html">サービス</a></li>
+	<li><a href="strength.html">キャリアプラスの強み</a></li>
+	<li><a href="individual.html">お仕事をお探しの方</a></li>
+	<li><a href="company.html">会社概要</a></li>
+	<li><a href="recruit.html">採用情報</a></li>
+	<li><a href="contact.html">お問い合わせ</a></li>
+	<li class="btn"><a href="https://jobta.jp/" target="_blank">スタッフ登録</a></li>
+</ul>
+<div class="spmenubtn"><span></span><span></span><span></span></div>
+<ul class="gnavi_sp">
+	<li><a href="service.html">サービス</a></li>
+	<li><a href="strength.html">キャリアプラスの強み</a></li>
+	<li class="parent"> <a>お仕事をお探しの方</a>
+		<ul class="dropdown">
+			<li><a href="individual.html">サービス紹介</a></li>
+			<li><a href="welfare.html">福利厚生について</a></li>
+			<li><a href="training.html">教育訓練計画について</a></li>
+			<li class="pdf"><a href="pdf/short_dispatch_info.pdf" target="_blank">短期派遣について</a></li>
+		</ul>
+	</li>
+	<li class="parent"> <a>会社概要</a>
+		<ul class="dropdown">
+			<li><a href="company.html">会社概要</a></li>
+			<li><a href="message.html">代表者挨拶</a></li>
+			<li><a href="office.html">事業所一覧</a></li>
+			<li><a href="news.html">お知らせ</a></li>
+			<li><a href="privacy.html">プライバシーポリシー</a></li>
+		</ul>
+	</li>
+	<li><a href="recruit.html">採用情報</a></li>
+	<li><a href="contact.html">お問い合わせ</a></li>
+	<li class="btn"><a href="https://jobta.jp/" target="_blank">スタッフ登録</a></li>
+</ul>

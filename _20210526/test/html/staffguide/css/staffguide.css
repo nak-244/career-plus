@@ -1,0 +1,77 @@
+.sp_disp{display: none;}
+.pc_disp{display: block;}
+#main{
+width:800px;
+margin: 0 auto;
+overflow:hidden;
+}
+#main-all{
+}
+.next-button{
+margin:.5em 0;
+}
+.before{
+float:left;
+}
+.next{
+float:right;
+}
+.before a:before{
+content: url(../img/guide_mark_2.png);
+padding-right: 3px;
+}
+.next a:before{
+content: url(../img/guide_mark.png);
+padding-right: 3px;
+}
+.next-button a{
+background-color:#e3e3e3;
+border-radius:10px;
+border-bottom:solid 2px #888;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+padding:10px;
+width: 120px;
+color:#777;
+}
+.all{
+border-top: solid 2px #900378;
+border-bottom: solid 1px #900378;
+padding:1px 0;
+}
+.all-in{
+border-top: solid 1px #900378;
+border-bottom: solid 2px #900378;
+}
+.all-in p{
+line-height:1.7em;
+}
+.daikoumoku{
+font-weight: bold;
+font-size: 20px;
+}
+.pagett{
+float:left;
+}
+.pageno{
+float:right;
+}
+.f-pageno{
+text-align: center;
+font-weight: bold;
+font-size: 20px;
+}
+
+
+@media screen and (max-width: 640px){
+	.sp_disp{display: block;}
+	.pc_disp{display: none;}
+	#main{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#main-all{
+		margin: .5em .5em;
+	}
+}

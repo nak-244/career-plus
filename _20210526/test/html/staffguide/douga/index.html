@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ja" prefix="og:http://ogp.me/ns#">
+<head>
+<meta name="robots" content="noindex">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="keywords" content="アスペイワーク,スタッフガイド">
+<meta name="description" content="アスペイワークのスタッフガイドです">
+<title>スタッフガイド|株式会社アスペイワーク</title>
+<link rel="stylesheet" href="css/douga.css">
+</head>
+
+<body class="page">
+	<header class="box_set">
+		<img class="logo" src="img/apw_logo.svg" alt="株式会社アスペイワーク" />
+		<h1><span>スタッフガイド</span>動画</h1>
+	</header>
+	
+	<article class="contents">
+		<section class="douga box_set">
+			<p class="dis">スタッフガイドの内容を動画でもご確認頂けます。<span>※この動画の著作権は、株式会社アスペイワークに帰属します。無断転載も禁止しております。</span></p>
+			<ul class="view clearfix">
+				<li>
+					<span class="v_title">就業ガイド</span>
+					<video src="mv/apw_1.mp4" poster="img/apw_mv_logo.svg" controls>
+					<p>このブラウザは動画に対応しておりません。videoタグをサポートしたブラウザをご使用ください。</p>
+					</video>
+					<span class="v_dis">派遣契約や登録までの流れ、給与・福利厚生・勤務時の注意など基本的な内容の説明です。</span>
+				</li>
+				<li>
+					<span class="v_title">安全・衛生</span>
+					<video src="mv/apw_2.mp4" poster="img/apw_mv_logo.svg" controls>
+					<p>このブラウザは動画に対応しておりません。videoタグをサポートしたブラウザをご使用ください。</p>
+					</video>
+					<span class="v_dis">労働災害の未然の防止や、作業条件・作業環境を適正に整備する安全・衛生の説明です。</span>
+				</li>
+				<li>
+					<span class="v_title">導入研修</span>
+					<video src="mv/apw_3.mp4" poster="img/apw_mv_logo.svg" controls>
+					<p>このブラウザは動画に対応しておりません。videoタグをサポートしたブラウザをご使用ください。</p>
+					</video>
+					<span class="v_dis">派遣スタッフとして入職する前の心構えや派遣法のこと、職場で役立つ良好なコミュニケーションの取り方についての説明です。</span>
+				</li>
+			</ul>
+		</section><!-- prologue END-->
+
+				<section class="f_set box_set">
+			<p class="text">スタッフガイドはお仕事を開始前に必ず御覧いただく必要がございます。御覧いただきましたら、下記情報を入力し送信をお願い致します。</p>
+			<form name="form" method="post" action="smmail.php">
+				<ul>
+					<li>
+						<input name="name;s" type="text" class="sbox" placeholder="姓名(漢字) ※スペース無し" required />
+					</li>
+					<li>
+						<input name="kname;s" type="text" class="sbox kana" pattern="[\u30A1-\u30FF \uFF21-\uFF3A｜\uFF41-\uFF5A]*" placeholder="姓名(フリガナ) ※スペース無し" required />
+					</li>
+					<li>
+						<input name="email;s" type="text" class="nbox" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="メールアドレス" required />
+					</li>
+					<li>
+						<input name="birthday;s" type="text" pattern="^([a-zA-Z0-9]{8,})$" placeholder="生年月日 例)19701201">
+					</li>
+					<li>
+						<input name="number" type="text" class="nbox" pattern="^([a-zA-Z0-9]{6,})$" placeholder="スタッフ番号 ※任意" />
+					</li>
+				</ul>
+				<p class="doui"><a href="https://www.willagency.co.jp/privacy/p_contact.php" target="_blank">「お問い合わせ情報の取り扱いについて」</a>に同意頂き確認画面にお進みください</p>
+				
+				<div class="d_check">
+					<input type="hidden" name="agreement" value="1" />
+					<input type="checkbox" id="check" name="agreement" value="利用規約に同意する" required />
+					<label for="check"></label>
+					<span>「お問い合わせ情報の取り扱いについて」に同意する</span>
+				</div>
+				<div class="fin_check">
+					<input type="hidden" name="finished" value="1" />
+					<input type="checkbox" id="check2" name="finished" value="スタッフガイドを読みました" required />
+					<label for="check2"></label>
+					<span>スタッフガイドを確認しました</span>
+				</div>
+				<div class="bt_set">
+					<input name="autoReply" type="hidden" id="autoReply" value="1" />
+					<button type="submit" class="bt_s" />送信内容を確認</button>
+				</div>
+			</form>
+		</section><!-- f_set END-->
+		
+	</article><!-- contents END-->
+	
+	<footer>(C) Aspay Work Inc. ALL Rights Reserved.</footer>
+</body>
+</html>
+
+
+

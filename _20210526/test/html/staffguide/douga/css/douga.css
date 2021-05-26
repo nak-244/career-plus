@@ -1,0 +1,1018 @@
+/*=======================================================
+PC SET
+=======================================================*/
+@media screen and (min-width:769px){
+/*---------- COMMON SET START ----------*/
+	/*CLEAR*/
+	.clearfix:after{
+		content:".";
+		display:block;
+		clear:both;
+		height:0;
+		visibility:hidden;
+	}
+
+	.clearfix{
+		min-height:1px;
+		display:inline-block;
+		display:block;
+	}
+
+	*html .clearfix{
+		height:1px;
+		/*\*//*/
+		height:auto;
+		overflow:hidden;
+		/**/
+	}
+
+	.clear{clear:both;}
+
+	.box_set{
+		width:800px;
+		margin:30px auto;
+	}
+
+	.page{
+		margin:0;
+		padding:0;
+		border-top:5px solid #54ad44;
+		border-bottom:5px solid #54ad44;
+	}
+
+	.page .logo{
+		display:block;
+		width:30%;
+	}
+
+	.page .contents{
+		border-top:3px double #ccc;
+		border-bottom:3px double #ccc;
+	}
+	
+	.page .contents .dis{
+		width:88%;
+		margin:0 auto 30px auto;
+		line-height:160%;
+	}
+
+	.page .contents .dis span{
+		display:block;
+		font-size:12px;
+		color:#e30327;
+	}
+	
+	.page .contents h2.title{
+		font-size:22px;
+		font-weight:normal;
+		padding-bottom:2px;
+	}
+	
+	.page .contents h3.sub_t{
+		font-size:20px;
+		margin-bottom:15px;
+	}
+	
+	.page .contents h3.sub_t span{
+		font-size:12px;
+	}
+	
+	.page .contents h4{
+		font-size:18px;
+		font-weight:bold;
+		margin-bottom:15px;
+	}
+	
+	.page .contents h4:before{
+		content:"■";
+	}
+	
+	.page .contents h5{
+		font-size:16px;
+		font-weight:bold;
+		margin-bottom:10px;
+	}
+	
+	.page p.cyuui{
+		width:80%;
+		margin:15px auto;
+		line-height:130%;
+	}
+	
+	.page .u_line{
+		text-decoration:underline;
+	}
+	
+	.page .p_text{
+		border:2px solid #ccc;
+		padding:10px;
+		-ms-border-radius:4px;
+		-webkit-border-radius:4px;
+		border-radius:4px;
+		margin-bottom:30px;
+	}
+	
+	.page .text{
+		font-size:16px;
+		line-height:160%;
+		margin-bottom:15px;
+	}
+	
+	.page .investigate{
+		display:block;
+		font-size:12px;
+		text-align:center;
+		line-height:150%;
+	}
+/* page common set end */
+/*---------- COMMON SET END ----------*/
+	.page .douga .view li{
+		list-style:none;
+		width:45%;
+		float:left;
+		margin:0 0 20px 30px;
+	}
+
+	.page .douga .view span.v_title{
+		display:block;
+		font-size:16px;
+		color:#fff;
+		text-align:center;
+		background:#77c06a;
+		padding:5px 0;
+	}
+
+	.page .douga .view span.v_dis{
+		display:block;
+		font-size:16px;
+		padding:5px 0;
+		line-height:140%;
+	}
+
+	.page .douga .view li:first-child{
+		width:100%;
+		margin:0 0 40px 0;
+		text-align:center;
+	}
+
+	.page .douga .view li:first-child span.v_title{
+		display:block;
+		width:45%;
+		margin:0 auto;
+	}
+
+	.page .douga .view li:first-child span.v_dis{
+		width:45%;
+		margin:0 auto;
+	}
+
+	.page .douga .view li:first-child video{
+		width:45%;
+		text-align:center;
+	}
+
+	.page .douga .view video{
+		width:100%;
+		height:200px;
+		border:1px solid #ccc;
+		box-sizing:border-box;
+	}
+/*---------- PAGE SET END ----------*/
+
+/*---------- f_set SET END ----------*/
+
+	.f_set form{
+		width:80%;
+		margin:0 auto;
+	}
+	
+	.f_set form ul{
+		margin-bottom:30px;
+	}
+	
+	.f_set form ul li{
+		list-style:none;
+		margin-bottom:15px;
+	}
+	
+	.f_set form ul li input{
+		padding:10px;
+		border:1px solid #ccc;
+		font-size:16px;
+		width:80%;
+	}
+	
+	.f_set form input::-webkit-input-placeholder{
+		color:#969696;
+	}
+
+	.f_set form input:-ms-input-placeholder{
+		color:#969696;
+	}
+
+	.f_set form input:valid {
+		color: green;
+	} 
+
+	.f_set form input:invalid {
+		color: red;
+	}
+	
+	.f_set form .doui{
+		font-size:16px;
+		text-align:center;
+		margin-bottom:30px;
+	}
+
+	.f_set form .d_check label{
+		padding:5px 0 0 38px;
+		font-size:18px;
+		display:inline-block;
+		cursor:pointer;
+		position:relative;
+	}
+
+	.f_set form .d_check label:before {
+		content:'';
+		width:22px;
+		height:22px;
+		line-height:100%;
+		display:inline-block;
+		position:absolute;
+		left:10px;
+		top:-12px;
+		right:0;
+		bottom:0;
+		background-color:#fff;
+		box-shadow:inset 1px 2px 3px 0px #000;
+		border-radius:4px 4px 4px 4px;
+		border:1px solid #ccc;
+	}
+
+	/* 元のチェックボックスを表示しない */
+	.f_set form .d_check input[type=checkbox] {
+		display:		none;
+	}
+	/* チェックした時のスタイル */
+	.f_set form .d_check input[type=checkbox]:checked + label:after {
+		display:inline-block;
+		width:22px;
+		height:22px;
+		line-height:50%;
+		position:absolute;
+		left:10px;
+		top:-12px;
+		right:0;
+		bottom:0;
+		box-shadow:inset 1px 2px 3px 0px #000;
+		border-radius:4px 4px 4px 4px;
+		border:1px solid #ccc;
+		content:		'\2713';
+		font-size:		30px;
+		color:			#06f;
+		background-color:	#fff;
+	}
+	
+	.f_set form .d_check{
+		width:70%;
+		margin:0 auto 20px auto;
+	}
+	
+	.f_set form .fin_check label{
+		padding:5px 0 0 38px;
+		font-size:18px;
+		display:inline-block;
+		cursor:pointer;
+		position:relative;
+	}
+
+	.f_set form .fin_check label:before {
+		content:'';
+		width:22px;
+		height:22px;
+		line-height:100%;
+		display:inline-block;
+		position:absolute;
+		left:10px;
+		top:-12px;
+		right:0;
+		bottom:0;
+		background-color:#fff;
+		box-shadow:inset 1px 2px 3px 0px #000;
+		border-radius:4px 4px 4px 4px;
+		border:1px solid #ccc;
+	}
+
+	/* 元のチェックボックスを表示しない */
+	.f_set form .fin_check input[type=checkbox] {
+		display:		none;
+	}
+	/* チェックした時のスタイル */
+	.f_set form .fin_check input[type=checkbox]:checked + label:after {
+		display:inline-block;
+		width:22px;
+		height:22px;
+		line-height:50%;
+		position:absolute;
+		left:10px;
+		top:-12px;
+		right:0;
+		bottom:0;
+		box-shadow:inset 1px 2px 3px 0px #000;
+		border-radius:4px 4px 4px 4px;
+		border:1px solid #ccc;
+		content:		'\2713';
+		font-size:		30px;
+		color:			#06f;
+		background-color:	#fff;
+	}
+	
+	.f_set form .fin_check{
+		width:70%;
+		margin:0 auto 40px auto;
+	}
+	
+	.f_set form button{
+		display:block;
+		width:30%;
+		border:1px solid #ccc;
+		padding:10px;
+		margin:0 auto;
+		cursor:pointer;
+		-webkit-border-radius:4px;
+		-ms-border-radius:4px;
+		border-radius:4px;
+		font-size:16px;
+		font-weight:bold;
+		color:#fff;
+		background:#399729;
+	}
+	
+	.f_set .kakunin{
+		width:50%;
+		margin:0 auto;
+	}
+	
+	.f_set .kakunin dt{
+		font-size:18px;
+		font-weight:bold;
+		margin-bottom:10px;
+	}
+	
+	.f_set .kakunin dt:before{
+		content:"■"
+	}
+/* p16 end */
+/* form_k start */
+	.f_set .kakunin dd{
+		font-size:16px;
+		margin-bottom:40px;
+	}
+	
+	.f_set form .bt_set{
+		text-align:center;
+	}
+	
+	.f_set form .bt_set span{
+		display:block;
+		margin-bottom:20px;
+	}
+	
+	.f_set form .bt_set input{
+		width:30%;
+		border:1px solid #ccc;
+		padding:10px;
+		margin:0 auto;
+		cursor:pointer;
+		-webkit-border-radius:4px;
+		-ms-border-radius:4px;
+		border-radius:4px;
+		font-size:16px;
+		font-weight:bold;
+		color:#fff !important;
+		background:#399729;
+	}
+/* form_k end */
+/* form_e start */
+	.thanks .t_service{
+		margin-bottom:40px;
+	}
+	
+	.thanks .t_service li{
+		list-style:none;
+		width:46%;
+		float:left;
+		padding:5px;
+		border:1px solid #ccc;
+		margin-left:10px;
+	}
+	
+	.thanks .t_service li img{
+		display:block;
+		width:100%;
+		margin:0 auto 20px auto;
+	}
+	
+	.thanks .t_service li p{
+		line-height:160%;
+		margin-bottom:20px;
+	}
+	
+	.thanks .t_service li p span{
+		display:block;
+		text-align:center;
+		margin-bottom:15px;
+		font-size:18px;
+		font-weight:bold;
+		color:#f341d8;
+	}
+	
+	.thanks .t_service li a{
+		display:block;
+		width:50%;
+		margin:0 auto 20px auto;
+		text-decoration:none;
+		padding:10px 0;
+		background:#35bd57;
+		color:#fff;
+		text-align:center;
+		font-size:14px;
+		border:2px solid #19a33b;
+		-webkit-border-radius:8px;
+		-,s-border-radius:8px;
+		border-radius:8px;
+	}
+	
+	.thanks .t_service li a:hover{
+		opacity:0.6;
+		transition:1s;
+	}
+	
+	.thanks .hibarai a{
+		display:block;
+		width:100%;
+		border:1px solid #666;
+		margin-bottom:15px;
+	}
+	
+	.thanks .hibarai img{
+		width:100%;
+	}
+	
+	.thanks .hibarai dl{
+		border:1px solid #ccc;
+		padding:30px;
+		width:90%;
+		margin:0 auto;
+	}
+	
+	.thanks .hibarai dl dt{
+		font-size:18px;
+		font-weight:bold;
+		margin-bottom:20px;
+		text-align:center;
+	}
+	
+	.thanks .hibarai dl dd{
+		width:48%;
+		float:left;
+		text-align:center;
+	}
+	
+	.thanks .hibarai dl dd a{
+		display:block;
+		width:45%;
+		padding:15px 0;
+		margin:0 auto;
+		font-size:14px;
+		background:#3fc0eb;
+		border:2px solid #04aae1;
+		text-decoration:none;
+		color:#fff;
+	}
+	
+	.thanks .hibarai dl dd a:hover{
+		opacity:0.6;
+		transition:1s;
+	}
+/* form_e end */
+	footer{
+		text-align:center;
+		font-size:12px;
+		padding:10px 0;
+	}
+}
+
+/*=======================================================
+SP SET
+=======================================================*/
+@media screen and (max-width:768px){
+/*---------- COMMON SET START ----------*/
+	/*CLEAR*/
+	.clearfix:after{
+		content:".";
+		display:block;
+		clear:both;
+		height:0;
+		visibility:hidden;
+	}
+
+	.clearfix{
+		min-height:1px;
+		display:inline-block;
+		display:block;
+	}
+
+	*html .clearfix{
+		height:1px;
+		/*\*//*/
+		height:auto;
+		overflow:hidden;
+		/**/
+	}
+
+	.clear{clear:both;}
+
+	.box_set{
+		width:98%;
+		margin:30px auto;
+	}
+
+	.page{
+		margin:0;
+		padding:0;
+		border-top:5px solid #54ad44;
+		border-bottom:5px solid #54ad44;
+	}
+
+	.page .logo{
+		display:block;
+		width:50%;
+		margin:0 auto;
+	}
+
+	.page h1{text-align:center;}
+
+	.page .contents{
+		border-top:3px double #ccc;
+		border-bottom:3px double #ccc;
+	}
+	
+	.page .contents .dis{
+		width:95%;
+		margin:0 auto 30px auto;
+		line-height:160%;
+	}
+
+	.page .contents .dis span{
+		display:block;
+		font-size:12px;
+		color:#e30327;
+	}
+	
+	.page .contents h2.title{
+		font-size:22px;
+		font-weight:normal;
+		padding-bottom:2px;
+	}
+	
+	.page .contents h3.sub_t{
+		font-size:20px;
+		margin-bottom:15px;
+	}
+	
+	.page .contents h3.sub_t span{
+		font-size:12px;
+	}
+	
+	.page .contents h4{
+		font-size:18px;
+		font-weight:bold;
+		margin-bottom:15px;
+	}
+	
+	.page .contents h4:before{
+		content:"■";
+	}
+	
+	.page .contents h5{
+		font-size:16px;
+		font-weight:bold;
+		margin-bottom:10px;
+	}
+	
+	.page p.cyuui{
+		width:80%;
+		margin:15px auto;
+		line-height:130%;
+	}
+	
+	.page .u_line{
+		text-decoration:underline;
+	}
+	
+	.page .p_text{
+		border:2px solid #ccc;
+		padding:10px;
+		-ms-border-radius:4px;
+		-webkit-border-radius:4px;
+		border-radius:4px;
+		margin-bottom:30px;
+	}
+	
+	.page .text{
+		font-size:16px;
+		line-height:160%;
+		margin-bottom:15px;
+	}
+	
+	.page .investigate{
+		display:block;
+		font-size:12px;
+		text-align:center;
+		line-height:150%;
+	}
+/* page common set end */
+/*---------- COMMON SET END ----------*/
+	.page .douga .view{
+		margin:0;
+		padding:0;
+	}
+
+
+	.page .douga .view li{
+		list-style:none;
+		width:100%;
+		margin:0 auto 20px auto;
+		padding:0;
+	}
+
+	.page .douga .view span.v_title{
+		display:block;
+		font-size:16px;
+		color:#fff;
+		text-align:center;
+		background:#77c06a;
+		padding:5px 0;
+	}
+
+	.page .douga .view span.v_dis{
+		display:block;
+		font-size:16px;
+		padding:5px 0;
+		line-height:140%;
+	}
+
+	.page .douga .view li:first-child{
+		width:100%;
+		margin:0 0 40px 0;
+		text-align:center;
+	}
+
+	.page .douga .view li:first-child span.v_title{
+		display:block;
+		width:100%;
+		margin:0 auto;
+	}
+
+	.page .douga .view li:first-child span.v_dis{
+		width:100%;
+		margin:0 auto;
+	}
+
+	.page .douga .view li:first-child video{
+		width:100%;
+		text-align:center;
+	}
+
+	.page .douga .view video{
+		width:100%;
+		height:200px;
+		border:1px solid #ccc;
+		box-sizing:border-box;
+	}
+/*---------- PAGE SET END ----------*/
+
+/*---------- f_set SET END ----------*/
+
+	.f_set form{
+		width:100%;
+		margin:0 auto;
+	}
+	
+	.f_set form ul{
+		margin-bottom:30px;
+	}
+	
+	.f_set form ul li{
+		list-style:none;
+		margin-bottom:15px;
+	}
+	
+	.f_set form ul li input{
+		padding:10px;
+		border:1px solid #ccc;
+		font-size:16px;
+		width:80%;
+	}
+	
+	.f_set form input::-webkit-input-placeholder{
+		color:#969696;
+	}
+
+	.f_set form input:-ms-input-placeholder{
+		color:#969696;
+	}
+
+	.f_set form input:valid {
+		color: green;
+	} 
+
+	.f_set form input:invalid {
+		color: red;
+	}
+	
+	.f_set form .doui{
+		font-size:16px;
+		text-align:center;
+		margin-bottom:30px;
+	}
+
+	.f_set form .d_check label{
+		padding:5px 0 0 38px;
+		font-size:18px;
+		display:inline-block;
+		cursor:pointer;
+		position:relative;
+	}
+
+	.f_set form .d_check label:before {
+		content:'';
+		width:22px;
+		height:22px;
+		line-height:100%;
+		display:inline-block;
+		position:absolute;
+		left:10px;
+		top:-12px;
+		right:0;
+		bottom:0;
+		background-color:#fff;
+		box-shadow:inset 1px 2px 3px 0px #000;
+		border-radius:4px 4px 4px 4px;
+		border:1px solid #ccc;
+	}
+
+	/* 元のチェックボックスを表示しない */
+	.f_set form .d_check input[type=checkbox] {
+		display:		none;
+	}
+	/* チェックした時のスタイル */
+	.f_set form .d_check input[type=checkbox]:checked + label:after {
+		display:inline-block;
+		width:22px;
+		height:22px;
+		line-height:50%;
+		position:absolute;
+		left:10px;
+		top:-12px;
+		right:0;
+		bottom:0;
+		box-shadow:inset 1px 2px 3px 0px #000;
+		border-radius:4px 4px 4px 4px;
+		border:1px solid #ccc;
+		content:		'\2713';
+		font-size:		30px;
+		color:			#06f;
+		background-color:	#fff;
+	}
+	
+	.f_set form .d_check{
+		width:70%;
+		margin:0 auto 20px auto;
+	}
+	
+	.f_set form .fin_check label{
+		padding:5px 0 0 38px;
+		font-size:18px;
+		display:inline-block;
+		cursor:pointer;
+		position:relative;
+	}
+
+	.f_set form .fin_check label:before {
+		content:'';
+		width:22px;
+		height:22px;
+		line-height:100%;
+		display:inline-block;
+		position:absolute;
+		left:10px;
+		top:-12px;
+		right:0;
+		bottom:0;
+		background-color:#fff;
+		box-shadow:inset 1px 2px 3px 0px #000;
+		border-radius:4px 4px 4px 4px;
+		border:1px solid #ccc;
+	}
+
+	/* 元のチェックボックスを表示しない */
+	.f_set form .fin_check input[type=checkbox] {
+		display:		none;
+	}
+	/* チェックした時のスタイル */
+	.f_set form .fin_check input[type=checkbox]:checked + label:after {
+		display:inline-block;
+		width:22px;
+		height:22px;
+		line-height:50%;
+		position:absolute;
+		left:10px;
+		top:-12px;
+		right:0;
+		bottom:0;
+		box-shadow:inset 1px 2px 3px 0px #000;
+		border-radius:4px 4px 4px 4px;
+		border:1px solid #ccc;
+		content:		'\2713';
+		font-size:		30px;
+		color:			#06f;
+		background-color:	#fff;
+	}
+	
+	.f_set form .fin_check{
+		width:70%;
+		margin:0 auto 40px auto;
+	}
+	
+	.f_set form button{
+		display:block;
+		width:46%;
+		border:1px solid #ccc;
+		padding:10px;
+		margin:0 auto;
+		cursor:pointer;
+		-webkit-border-radius:4px;
+		-ms-border-radius:4px;
+		border-radius:4px;
+		font-size:16px;
+		font-weight:bold;
+		color:#fff;
+		background:#399729;
+	}
+	
+	.f_set .kakunin{
+		width:50%;
+		margin:0 auto;
+	}
+	
+	.f_set .kakunin dt{
+		font-size:18px;
+		font-weight:bold;
+		margin-bottom:10px;
+	}
+	
+	.f_set .kakunin dt:before{
+		content:"■"
+	}
+/* p16 end */
+/* form_k start */
+	.f_set .kakunin dd{
+		font-size:16px;
+		margin-bottom:40px;
+	}
+	
+	.f_set form .bt_set{
+		text-align:center;
+	}
+	
+	.f_set form .bt_set span{
+		display:block;
+		margin-bottom:20px;
+	}
+	
+	.f_set form .bt_set input{
+		width:30%;
+		border:1px solid #ccc;
+		padding:10px;
+		margin:0 auto;
+		cursor:pointer;
+		-webkit-border-radius:4px;
+		-ms-border-radius:4px;
+		border-radius:4px;
+		font-size:16px;
+		font-weight:bold;
+		color:#fff !important;
+		background:#399729;
+	}
+/* form_k end */
+/* form_e start */
+	.thanks .t_service{
+		margin-bottom:40px;
+	}
+	
+	.thanks .t_service li{
+		list-style:none;
+		width:46%;
+		float:left;
+		padding:5px;
+		border:1px solid #ccc;
+		margin-left:10px;
+	}
+	
+	.thanks .t_service li img{
+		display:block;
+		width:100%;
+		margin:0 auto 20px auto;
+	}
+	
+	.thanks .t_service li p{
+		line-height:160%;
+		margin-bottom:20px;
+	}
+	
+	.thanks .t_service li p span{
+		display:block;
+		text-align:center;
+		margin-bottom:15px;
+		font-size:18px;
+		font-weight:bold;
+		color:#f341d8;
+	}
+	
+	.thanks .t_service li a{
+		display:block;
+		width:50%;
+		margin:0 auto 20px auto;
+		text-decoration:none;
+		padding:10px 0;
+		background:#35bd57;
+		color:#fff;
+		text-align:center;
+		font-size:14px;
+		border:2px solid #19a33b;
+		-webkit-border-radius:8px;
+		-,s-border-radius:8px;
+		border-radius:8px;
+	}
+	
+	.thanks .t_service li a:hover{
+		opacity:0.6;
+		transition:1s;
+	}
+	
+	.thanks .hibarai a{
+		display:block;
+		width:100%;
+		border:1px solid #666;
+		margin-bottom:15px;
+	}
+	
+	.thanks .hibarai img{
+		width:100%;
+	}
+	
+	.thanks .hibarai dl{
+		border:1px solid #ccc;
+		padding:30px;
+		width:90%;
+		margin:0 auto;
+	}
+	
+	.thanks .hibarai dl dt{
+		font-size:18px;
+		font-weight:bold;
+		margin-bottom:20px;
+		text-align:center;
+	}
+	
+	.thanks .hibarai dl dd{
+		width:48%;
+		float:left;
+		text-align:center;
+	}
+	
+	.thanks .hibarai dl dd a{
+		display:block;
+		width:45%;
+		padding:15px 0;
+		margin:0 auto;
+		font-size:14px;
+		background:#3fc0eb;
+		border:2px solid #04aae1;
+		text-decoration:none;
+		color:#fff;
+	}
+	
+	.thanks .hibarai dl dd a:hover{
+		opacity:0.6;
+		transition:1s;
+	}
+/* form_e end */
+	footer{
+		text-align:center;
+		font-size:12px;
+		padding:10px 0;
+	}
+}
