@@ -1,3 +1,9 @@
+<?php
+header("HTTP/1.1 301 Moved Permanently");
+header("Location: https://www.career-plus.co.jp/privacy.html");
+exit();
+?>
+
 <?php include ('../header.php'); ?>
 <title>プライバシーポリシー |【公式】株式会社キャリアプラス - 日払い対応人材派遣サービス</title>
 <div id="main">

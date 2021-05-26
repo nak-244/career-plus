@@ -1,3 +1,9 @@
+<?php
+header("HTTP/1.1 301 Moved Permanently");
+header("Location: https://www.career-plus.co.jp/individual.html");
+exit();
+?>
+
 <?php include ('../header.php'); ?>
 <title>お仕事情報 |【公式】株式会社キャリアプラス - 日払い対応人材派遣サービス</title>
 <div id="main">
@@ -82,7 +88,7 @@ bottom: 1em;
 <div class="content-1">
 <p><a href="https://jobta.jp/index.cfm?fuseaction=job.joblist&sfw=cos">大阪の求人情報はコチラ</a></p>
 </div><!--/content1-->
-    
+
 <div class="content-1">
 <p><a href="https://jobta.jp/index.cfm?fuseaction=job.joblist&sfw=cfk">福岡の求人情報はコチラ</a></p>
 </div><!--/content1-->
@@ -113,7 +119,7 @@ bottom: 1em;
 <div class="content-1">
 <p><a href="https://jobta.jp/index.cfm?fuseaction=job.joblist&sfw=cos">大阪の求人情報はコチラ</a></p>
 </div><!--/content1-->
-    
+
 <div class="content-1">
 <p><a href="https://jobta.jp/index.cfm?fuseaction=job.joblist&sfw=cfk">福岡の求人情報はコチラ</a></p>
 </div><!--/content1-->
