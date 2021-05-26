@@ -36,9 +36,21 @@ EOM;
 		<script src="js/sal.js"></script>
 		<script src="js/jquery.bgswitcher.js"></script>
 		<script src="js/jquery_common.js"></script>
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-KDLXFC5');</script>
+		<!-- End Google Tag Manager -->
 	</head>
 
 <body class="page contact">
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KDLXFC5"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+
 	<div class="wrapper">
 		<div class="header"></div>
 		<div class="mainimg_page">
@@ -46,9 +58,9 @@ EOM;
 				<h1 class="title" data-sal="slide-right" data-sal-duration="2000"><span>Contact</span>お問い合わせ</h1>
 			</div>
 		</div>
-		
+
 		<div class="contents">
-			
+
 			<h2>お問い合わせ</h2>
 			<div class="section">
 				<p class="txt_explan">ご依頼やご相談等は下記フォームからお問い合わせください。<br>
@@ -103,9 +115,9 @@ EOM;
 			</div>
 
 		</div><!--contents end-->
-		
+
 		<div class="footer"></div>
-			
+
 		</div><!--wrapper end-->
 </body>
 </html>
