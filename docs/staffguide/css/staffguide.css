@@ -1,3 +1,12 @@
+.sp_disp{display: none;}
+.pc_disp{display: block;}
+#main{
+width:800px;
+margin: 0 auto;
+overflow:hidden;
+}
+#main-all{
+}
 .next-button{
 margin:.5em 0;
 }
@@ -52,4 +61,17 @@ float:right;
 text-align: center;
 font-weight: bold;
 font-size: 20px;
+}
+
+
+@media screen and (max-width: 640px){
+	.sp_disp{display: block;}
+	.pc_disp{display: none;}
+	#main{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#main-all{
+		margin: .5em .5em;
+	}
 }

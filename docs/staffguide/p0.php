@@ -1,10 +1,13 @@
-<?php include ('../header.php'); ?>
-<title>スタッフガイドINDEX |【公式】株式会社キャリアプラス - 日払い対応人材派遣サービス</title>
-<link rel="stylesheet" type="text/css" href="css/staffguide.css">
-<meta name="robots" content="noindex">
-<div id="main">
-<div id="main-all">
-<!--/トップ固定-->
+<!doctype html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<meta name="robots" content="noindex,nofollow">
+		<meta name="viewport" content="width=device-width">
+		<title>スタッフガイドINDEX |【公式】株式会社キャリアプラス - 日払い対応人材派遣サービス</title>
+		<link rel="stylesheet" type="text/css" href="css/staffguide.css">
+		<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	</head>
 
 <style type="text/css">
 <!--
@@ -119,7 +122,7 @@ width:50%;
 }
 .pc_disp .b-right{
 float:right;
-width:50%;
+width:47%;
 border: solid 1px #888;
 border-radius: 13px;
 padding: 10px;
@@ -131,6 +134,12 @@ margin: 0 10px;
 }
 -->
 </style>
+	
+<body>
+	
+<div id="main">
+<div id="main-all">
+<!--/トップ固定-->
 
 <div class="sp_disp">
 
@@ -201,7 +210,7 @@ margin: 0 10px;
 <p class="mark3">個人情報の取扱いについて</p>
 <div class="p-left">
 	<div class="p-left-l">
-	<img src="../img/mark_p.png" alt="Pマーク">
+	<img src="/img/mark_p.png" alt="Pマーク">
 	</div>
 	<div class="p-left-r">
 	<p>当社は一般財団法人日本情報経済社会推進協会よりプライバシーマークの付与認定を受けております。</p>
@@ -296,7 +305,7 @@ margin: 0 10px;
 <p class="mark3">個人情報の取扱いについて</p>
 <div class="p-left">
 	<div class="p-left-l">
-	<img src="../img/mark_p.png" alt="Pマーク">
+	<img src="img/mark_p.png" alt="Pマーク">
 	</div>
 	<div class="p-left-r">
 	<p>当社は一般財団法人日本情報経済社会推進協会よりプライバシーマークの付与認定を受けております。</p>
@@ -324,6 +333,7 @@ margin: 0 10px;
 
 <!--下部固定/-->
 </div><!--main-all-->
-<?php include ('../side.php'); ?>
 </div><!--main-->
-<?php include ('../footer.php'); ?>
+	
+</body>
+</html>

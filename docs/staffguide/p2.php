@@ -1,10 +1,14 @@
-<?php include ('../header.php'); ?>
-<title>スタッフガイドP2 |【公式】株式会社キャリアプラス - 日払い対応人材派遣サービス</title>
-<link rel="stylesheet" type="text/css" href="css/staffguide.css">
-<meta name="robots" content="noindex">
-<div id="main">
-<div id="main-all">
-<!--/トップ固定-->
+<!doctype html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<meta name="robots" content="noindex,nofollow">
+		<meta name="viewport" content="width=device-width">
+		<title>スタッフガイドP2 |【公式】株式会社キャリアプラス - 日払い対応人材派遣サービス</title>
+		<link rel="stylesheet" type="text/css" href="css/staffguide.css">
+		<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	</head>
+
 
 <style type="text/css">
 <!--
@@ -151,7 +155,12 @@ margin:10px 0;
 }
 -->
 </style>
+	
+<body>
 
+<div id="main">
+<div id="main-all">
+<!--/トップ固定-->
 
 <div class="sp_disp">
 
@@ -613,6 +622,7 @@ margin:10px 0;
 
 <!--下部固定/-->
 </div><!--main-all-->
-<?php include ('../side.php'); ?>
 </div><!--main-->
-<?php include ('../footer.php'); ?>
+	
+</body>
+</html>

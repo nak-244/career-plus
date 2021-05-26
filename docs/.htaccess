@@ -11,3 +11,6 @@ RewriteRule ^(.*)$ https://www.career-plus.co.jp/$1 [R=301,L]
 RewriteEngine on
 RewriteCond %{HTTP_HOST} ^(career-plus\ .co.jp)(:80)?
 RewriteRule ^(.*) https://www.career-plus.co.jp/$1 [R=301,L]
+
+Options +ExecCGI
+AddType application/x-httpd-cgi .cgi

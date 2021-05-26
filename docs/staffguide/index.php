@@ -1,8 +1,14 @@
-<?php include ('../header.php'); ?>
-<title>スタッフガイド表紙 |【公式】株式会社キャリアプラス - 日払い対応人材派遣サービス</title>
-<link rel="stylesheet" type="text/css" href="css/staffguide.css">
-<meta name="robots" content="noindex">
-
+<!doctype html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<meta name="robots" content="noindex,nofollow">
+		<meta name="viewport" content="width=device-width">
+		<title>スタッフガイド表紙 |【公式】株式会社キャリアプラス - 日払い対応人材派遣サービス</title>
+		<link rel="stylesheet" type="text/css" href="css/staffguide.css">
+		<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	</head>
+	
 <style type="text/css">
 <!--
 .all{
@@ -46,6 +52,8 @@ margin-bottom:200px;
 }
 -->
 </style>
+
+<body>
 <div id="main">
 <div id="main-all">
 
@@ -70,7 +78,7 @@ margin-bottom:200px;
 
 <div class="b-data">
 <p class="b-data-1">( 就業ガイド / 安全・衛生 / 入職前研修 )</p>
-<img src="../img/logo_career_plus.png" alt="会社ロゴ">
+<img src="/img/logo_career_plus.png" alt="会社ロゴ">
 <p class="b-data-2">株式会社 キャリアプラス</p>
 </div>
 
@@ -105,7 +113,7 @@ margin-bottom:200px;
 
 <div class="b-data">
 <p class="b-data-1">( 就業ガイド / 安全・衛生 / 入職前研修 )</p>
-<img src="../img/logo_career_plus.png" alt="会社ロゴ">
+<img src="img/logo_career_plus.png" alt="会社ロゴ">
 <p class="b-data-2">株式会社 キャリアプラス</p>
 </div>
 
@@ -121,6 +129,7 @@ margin-bottom:200px;
 
 
 </div><!--main-all-->
-<?php include ('../side.php'); ?>
 </div><!--main-->
-<?php include ('../footer.php'); ?>
+	
+</body>
+</html>
