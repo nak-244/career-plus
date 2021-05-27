@@ -1,3 +1,9 @@
+<?php
+header("HTTP/1.1 301 Moved Permanently");
+header("Location: https://www.career-plus.co.jp/contact.html");
+exit();
+?>
+
 <?php include ('../header.php'); ?>
 <title>お問い合わせフォーム（登録スタッフの皆様・お仕事をお探しの方） |【公式】株式会社キャリアプラス - 日払い対応人材派遣サービス</title>
 <div id="main">
