@@ -25,7 +25,7 @@ EOM;
 		<meta charset="utf-8">
 		<meta name="robots" content="noindex,nofollow">
 		<meta name="viewport" content="width=device-width">
-		<title>お問い合わせ内容確認 | 【公式】株式会社キャリアプラス</title>
+		<title>ご相談内容確認 | 【公式】株式会社キャリアプラス</title>
 		<link href="css/reset.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
 		<link href="css/sal.css" rel="stylesheet">
@@ -37,55 +37,30 @@ EOM;
 		<script src="js/jquery.bgswitcher.js"></script>
 		<script src="js/jquery_common.js"></script>
 		<!-- Google Tag Manager -->
-		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		<!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-		})(window,document,'script','dataLayer','GTM-KDLXFC5');</script>
+		})(window,document,'script','dataLayer','GTM-KDLXFC5');</script> -->
 		<!-- End Google Tag Manager -->
 	</head>
 
 <body class="page contact">
 	<!-- Google Tag Manager (noscript) -->
-	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KDLXFC5"
-	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KDLXFC5"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
 	<!-- End Google Tag Manager (noscript) -->
 
 	<div class="wrapper">
-		<div class="header"></div>
-		<div class="mainimg_page">
-			<div class="mainimg_page_inner">
-				<h1 class="title" data-sal="slide-right" data-sal-duration="2000"><span>Contact</span>お問い合わせ</h1>
-			</div>
-		</div>
-
 		<div class="contents">
 
-			<h2>お問い合わせ</h2>
+			<h2>ご相談内容確認</h2>
 			<div class="section">
-				<p class="txt_explan">ご依頼やご相談等は下記フォームからお問い合わせください。<br>
-				お問い合わせ完了後、弊社スタッフよりご連絡させていただきます。</p>
-				<form class="form_set" name="form" method="post" action="smmail.php">
+				<form class="form_set" name="form" method="post" action="smmail0.php">
 					<table class="form">
 						<tr>
-							<th>法人／個人</th>
-							<td><?php echo $_SESSION['customer_category']?></td>
-						</tr>
-						<tr>
-							<th>企業名</th>
-							<td><?php echo $_SESSION['company']?></td>
-						</tr>
-						<tr>
-							<th>お名前<span>必須</span></th>
+							<th>お名前</th>
 							<td><?php echo $_SESSION['name']?></td>
-						</tr>
-						<tr>
-							<th>お名前(フリガナ)</th>
-							<td><?php echo $_SESSION['kana']?></td>
-						</tr>
-						<tr>
-							<th>電話番号<span>必須</span></th>
-							<td><?php echo $_SESSION['phone']?></td>
 						</tr>
 						<tr>
 							<th>メールアドレス<span>必須</span></th>
@@ -115,8 +90,6 @@ EOM;
 			</div>
 
 		</div><!--contents end-->
-
-		<div class="footer"></div>
 
 		</div><!--wrapper end-->
 </body>
