@@ -79,7 +79,7 @@ EOM;
 					}else{
 						echo'<p class="txt_center">入力が正しければ、送信ボタンを押して下さい。</p>
 						<div class="submit">
-							<input name="autoReply" type="hidden" id="autoReply" value="1" />
+							<input name="autoReply" type="hidden" value="1" />
 							<input name="mode" type="hidden" id="mode" value="SEND" />
 							<input class="back" type="button" value="修正する" onclick="history.back()" />
 							<input class="bt_s" type="submit" value="送信する" />
