@@ -41,9 +41,10 @@
 	completion.html(完了)
 --------------------------------------------------------------*/
 // 設定
-$mail_to = 'cap.info@career-plus.co.jp'; // フォームデータを受け取るメールアドレス
-$mail_subject = 'サイトからお問い合わせがありました。'; // 受け取る時のSubject（件名）
-$reply_subject = 'お問い合わせありがとうございます／株式会社キャリアプラス(自動返信)'; // 送信者へ自動返信のSubject（件名）
+// $mail_to = 'cap_help@career-plus.co.jp'; // フォームデータを受け取るメールアドレス
+$mail_to = 'tsuyoshi.nakamura@openloop.co.jp'; // フォームデータを受け取るメールアドレス
+$mail_subject = '相談窓口フォームからお問い合わせがありました。'; // 受け取る時のSubject（件名）
+$reply_subject = 'ご相談を受け付けました／株式会社キャリアプラス(自動返信)'; // 送信者へ自動返信のSubject（件名）
 $mail_bcc = ''; // BCCで受け取りが必要な場合は設定
 $internal_enc = 'UTF-8'; // 文字エンコード
 
@@ -69,7 +70,7 @@ case 'SEND': // メール送信
 	$mail_header .= "X-Mailer: {$x_mailer}";
 
 	// メール送信
-	include ('template.php');
+	include ('template0.php');
 	$mail_message = html_entity_decode($mail_message, ENT_QUOTES, $internal_enc);
 	$mail_message = str_replace("<br />", "", $mail_message);
 	$mail_message = str_replace("\t", "\n", $mail_message);
@@ -77,11 +78,11 @@ case 'SEND': // メール送信
 	mb_send_mail($mail_to, $mail_subject, $mail_message, $mail_header);
 
 	// メール自動返信
-	if ($_SESSION['autoReply'] && $_SESSION['email'] && is_file('reply.php')) {
+	if ($_SESSION['autoReply'] && $_SESSION['email'] && is_file('reply0.php')) {
 		$reply_header  = "From: {$mail_to}\n";
 		if ($mail_bcc) $reply_header .= "Bcc: {$mail_bcc}\n";
 		$reply_header .= "X-Mailer: {$x_mailer}";
-		include ('reply.php');
+		include ('reply0.php');
 		$reply_message = html_entity_decode($reply_message, ENT_QUOTES, $internal_enc);
 		$reply_message = str_replace("<br />", "", $reply_message);
 		$reply_message = str_replace("\t", "\n", $reply_message);
@@ -91,7 +92,7 @@ case 'SEND': // メール送信
 	$_SESSION = array();
 	session_unset();
 	session_destroy();
-	header('Location: completion.php');
+	header('Location: completion0.php');
 	break;
 
 
@@ -167,7 +168,7 @@ default: // 入力データ処理
 		}
 	}
 	$_SESSION['inputErr'] = $error;
-	header('Location: confirm.php');
+	header('Location: confirm0.php');
 }
 exit;
 
@@ -177,58 +178,11 @@ function Err($err) { // エラー表示用
 	echo <<<EOM
 <html><head>
 <meta http-equiv="Content-Type" content="text/html; charset={$internal_enc}" />
-<title>エラー：$err</title><script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-46077894-1', 'willagency.co.jp');
-  ga('send', 'pageview');
-
-</script>
+<title>エラー：$err</title>
 </head>
 <body style="font-size: 12px; line-height: 1.8em;">
 <strong>エラー : </strong>$err<br>
 <input type="button" value="戻る" onclick="history.back();">
-<!-- Yahoo Code for your Target List -->
-<script type="text/javascript">
-/* <![CDATA[ */
-var yahoo_ss_retargeting_id = 1000407440;
-var yahoo_sstag_custom_params = window.yahoo_sstag_params;
-var yahoo_ss_retargeting = true;
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://s.yimg.jp/images/listing/tool/cv/conversion.js">
-</script>
-<noscript>
-<div style="display:inline;">
-<img height="1" width="1" style="border-style:none;" alt="" src="https://b97.yahoo.co.jp/pagead/conversion/1000407440/?guid=ON&script=0&disvt=false"/>
-</div>
-</noscript>
-<!-- Yahoo Code for your Target List end -->
-<!-- Yahoo Code for your Target List 2 -->
-<script type="text/javascript" language="javascript">
-/* <![CDATA[ */
-var yahoo_retargeting_id = 'TU5WY397JB';
-var yahoo_retargeting_label = '';
-var yahoo_retargeting_page_type = '';
-var yahoo_retargeting_items = [{item_id: '', category_id: '', price: '', quantity: ''}];
-/* ]]> */
-</script>
-<script type="text/javascript" language="javascript" src="https://b92.yahoo.co.jp/js/s_retargeting.js"></script>
-<!-- Yahoo Code for your Target List 2 end -->
-
-<!-- Twitter universal website tag code -->
-<script>
-!function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
-},s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
-a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
-// Insert Twitter Pixel ID and Standard Event data below
-twq('init','nyjyk');
-twq('track','PageView');
-</script>
-<!-- End Twitter universal website tag code -->
 </body></html>
 EOM;
 	exit;
