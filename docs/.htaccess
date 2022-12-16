@@ -17,5 +17,9 @@ RewriteEngine on
 RewriteCond %{THE_REQUEST} ^.*/index.html
 RewriteRule ^(.*)index.html$ https://www.career-plus.co.jp/$1 [R=301,L]
 
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [R=301,L]
+
 Options +ExecCGI
 AddType application/x-httpd-cgi .cgi
